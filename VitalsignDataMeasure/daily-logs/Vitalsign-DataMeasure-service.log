@@ -1,0 +1,28 @@
+18-12-2020 13:39:33.705 INFO  c.e.v.VitalsignProjectServicesApplication.logStarting.55 - Starting VitalsignProjectServicesApplication on DESKTOP-2U9UF8V with PID 10176 (E:\1.ELCOM\0.Vitalsign\1.televital-platform\VitalsignDataMeasure\target\classes started by Admin in E:\1.ELCOM\0.Vitalsign\1.televital-platform\VitalsignDataMeasure)
+18-12-2020 13:39:33.715 INFO  c.e.v.VitalsignProjectServicesApplication.logStartupProfileInfo.651 - No active profile set, falling back to default profiles: default
+18-12-2020 13:39:37.227 INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation.31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+18-12-2020 13:39:37.559 INFO  org.hibernate.Version.logVersion.44 - HHH000412: Hibernate ORM core version 5.4.15.Final
+18-12-2020 13:39:37.909 INFO  o.h.annotations.common.Version.<clinit>.49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+18-12-2020 13:39:38.018 INFO  org.hibernate.dialect.Dialect.<init>.172 - HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+18-12-2020 13:39:38.925 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService.52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18-12-2020 13:39:39.012 INFO  c.e.v.messaging.rabbitmq.RpcConfig.initRpcQueue.35 - rpcQueueName: vs_measure_data_rpc_queue_ducnh
+18-12-2020 13:39:39.013 INFO  c.e.v.messaging.rabbitmq.RpcConfig.rpcExchange.41 - rpcExchangeName: vs_measure_data_rpc_exchange_ducnh
+18-12-2020 13:39:39.015 INFO  c.e.v.messaging.rabbitmq.RpcConfig.bindingRpc.47 - rpcRoutingKey: vs_measure_data_rpc_key_ducnh
+18-12-2020 13:39:39.032 INFO  c.e.v.m.rabbitmq.WorkerConfig.initWorkerQueue.24 - workerQueueName: vs_measure_data_worker_queue_ducnh
+18-12-2020 13:39:40.891 INFO  c.e.v.VitalsignProjectServicesApplication.logStarted.61 - Started VitalsignProjectServicesApplication in 9.163 seconds (JVM running for 12.558)
+18-12-2020 13:39:40.907 INFO  c.e.v.mqtt.MqttSubscriberInitForData.subscribersData.147 - [ subscribersDATA topic ]
+18-12-2020 13:39:41.334 INFO  com.elcom.vitalsign.utils.SslUtil.getSocketFactory.78 - Unencrypted key - no password needed
+18-12-2020 13:39:41.677 INFO  c.e.v.mqtt.MqttSubscriberInitForData.subscribersData.172 - [$share/temp_demotest02/RES/TRANSMIT/DATA/TEMP000000001] subscribe topic [$share/temp_demotest02/RES/TRANSMIT/DATA/TEMP/#] SUCCESS!
+18-12-2020 13:44:10.915 INFO  c.e.v.VitalsignProjectServicesApplication.logStarting.55 - Starting VitalsignProjectServicesApplication on DESKTOP-2U9UF8V with PID 6976 (E:\1.ELCOM\0.Vitalsign\1.televital-platform\VitalsignDataMeasure\target\classes started by Admin in E:\1.ELCOM\0.Vitalsign\1.televital-platform\VitalsignDataMeasure)
+18-12-2020 13:44:10.919 INFO  c.e.v.VitalsignProjectServicesApplication.logStartupProfileInfo.651 - No active profile set, falling back to default profiles: default
+18-12-2020 13:44:12.961 INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation.31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+18-12-2020 13:44:13.015 INFO  org.hibernate.Version.logVersion.44 - HHH000412: Hibernate ORM core version 5.4.15.Final
+18-12-2020 13:44:13.206 INFO  o.h.annotations.common.Version.<clinit>.49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+18-12-2020 13:44:13.313 INFO  org.hibernate.dialect.Dialect.<init>.172 - HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+18-12-2020 13:44:14.009 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService.52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18-12-2020 13:44:14.075 INFO  c.e.v.messaging.rabbitmq.RpcConfig.initRpcQueue.35 - rpcQueueName: vs_measure_data_rpc_queue_ducnh
+18-12-2020 13:44:14.076 INFO  c.e.v.messaging.rabbitmq.RpcConfig.rpcExchange.41 - rpcExchangeName: vs_measure_data_rpc_exchange_ducnh
+18-12-2020 13:44:14.078 INFO  c.e.v.messaging.rabbitmq.RpcConfig.bindingRpc.47 - rpcRoutingKey: vs_measure_data_rpc_key_ducnh
+18-12-2020 13:44:14.086 INFO  c.e.v.m.rabbitmq.WorkerConfig.initWorkerQueue.24 - workerQueueName: vs_measure_data_worker_queue_ducnh
+18-12-2020 13:44:15.060 INFO  c.e.v.VitalsignProjectServicesApplication.logStarted.61 - Started VitalsignProjectServicesApplication in 4.67 seconds (JVM running for 5.167)
+18-12-2020 13:44:15.066 INFO  c.e.v.mqtt.MqttSubscriberInitForData.subscribersData.147 - [ subscribersDATA topic ]

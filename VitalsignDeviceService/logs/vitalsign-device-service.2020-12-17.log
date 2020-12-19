@@ -1,0 +1,141 @@
+17-12-2020 14:07:20.090 INFO  com.elcom.device.MainApplication.logStarting.55 - Starting MainApplication on DESKTOP-2U9UF8V with PID 10988 (E:\1.ELCOM\0.Vitalsign\1.televital-platform\VitalsignDeviceService\target\classes started by Admin in E:\1.ELCOM\0.Vitalsign\1.televital-platform\VitalsignDeviceService)
+17-12-2020 14:07:20.105 INFO  com.elcom.device.MainApplication.logStartupProfileInfo.651 - No active profile set, falling back to default profiles: default
+17-12-2020 14:07:26.156 INFO  c.e.d.messaging.rabbitmq.RpcConfig.initRpcQueue.35 - rpcQueueName: vs_device_rpc_queue
+17-12-2020 14:07:26.161 INFO  c.e.d.messaging.rabbitmq.RpcConfig.rpcExchange.41 - rpcExchangeName: vs_device_rpc_exchange
+17-12-2020 14:07:26.165 INFO  c.e.d.messaging.rabbitmq.RpcConfig.bindingRpc.47 - rpcRoutingKey: vs_device_rpc_key
+17-12-2020 14:07:26.183 INFO  c.e.d.m.rabbitmq.WorkerConfig.initWorkerQueue.24 - workerQueueName: vs_device_worker_queue
+17-12-2020 14:07:28.920 INFO  com.elcom.device.MainApplication.logStarted.61 - Started MainApplication in 9.661 seconds (JVM running for 10.228)
+17-12-2020 14:12:38.260 INFO  c.e.d.messaging.rabbitmq.RpcServer.rpcReceive.37 -  [-->] Server received request for {"requestMethod":"GET","requestPath":"/v1.0/device/count-gate-by-ha-id","urlParam":"11d7ff14-d06b-49c3-8791-43d44b5ca10a,","headerParam":{"authorization":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI1MGQ3ZmYxNC1kMDZiLTQ5YzMtODc5MS00M2Q0NGI1Y2E1OWQiLCJpYXQiOjE2MDgxODA0NjQsImV4cCI6MTYwODc4NTI2NH0.WJ6VA6a0QuCNAFZPmLvUZoQ7CLTakz989rXVKINObA69RiiUDRwq_2B2rNrG3qMN8-sfZZaJHlXL7dc9iVVTxA"}}
+17-12-2020 14:12:47.739 ERROR c.e.d.messaging.rabbitmq.RpcServer.rpcReceive.118 - java.lang.NullPointerException
+17-12-2020 14:13:40.340 INFO  c.e.d.messaging.rabbitmq.RpcServer.rpcReceive.37 -  [-->] Server received request for {"requestMethod":"GET","requestPath":"/v1.0/device/count-gate-by-ha-id","urlParam":"11d7ff14-d06b-49c3-8791-43d44b5ca10a,","headerParam":{"authorization":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI1MGQ3ZmYxNC1kMDZiLTQ5YzMtODc5MS00M2Q0NGI1Y2E1OWQiLCJpYXQiOjE2MDgxODA0NjQsImV4cCI6MTYwODc4NTI2NH0.WJ6VA6a0QuCNAFZPmLvUZoQ7CLTakz989rXVKINObA69RiiUDRwq_2B2rNrG3qMN8-sfZZaJHlXL7dc9iVVTxA"}}
+17-12-2020 14:13:44.967 ERROR c.e.d.messaging.rabbitmq.RpcServer.rpcReceive.118 - java.lang.NullPointerException
+17-12-2020 14:14:00.495 INFO  c.e.d.messaging.rabbitmq.RpcServer.rpcReceive.37 -  [-->] Server received request for {"requestMethod":"GET","requestPath":"/v1.0/device/count-gate-by-ha-id","urlParam":"11d7ff14-d06b-49c3-8791-43d44b5ca10a,","headerParam":{"authorization":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI1MGQ3ZmYxNC1kMDZiLTQ5YzMtODc5MS00M2Q0NGI1Y2E1OWQiLCJpYXQiOjE2MDgxODA0NjQsImV4cCI6MTYwODc4NTI2NH0.WJ6VA6a0QuCNAFZPmLvUZoQ7CLTakz989rXVKINObA69RiiUDRwq_2B2rNrG3qMN8-sfZZaJHlXL7dc9iVVTxA"}}
+17-12-2020 14:15:28.813 ERROR c.e.d.messaging.rabbitmq.RpcServer.rpcReceive.118 - java.lang.NullPointerException
+17-12-2020 14:19:58.324 INFO  com.elcom.device.MainApplication.logStarting.55 - Starting MainApplication on DESKTOP-2U9UF8V with PID 8972 (E:\1.ELCOM\0.Vitalsign\1.televital-platform\VitalsignDeviceService\target\classes started by Admin in E:\1.ELCOM\0.Vitalsign\1.televital-platform\VitalsignDeviceService)
+17-12-2020 14:19:58.364 INFO  com.elcom.device.MainApplication.logStartupProfileInfo.651 - No active profile set, falling back to default profiles: default
+17-12-2020 14:20:08.846 INFO  c.e.d.messaging.rabbitmq.RpcConfig.initRpcQueue.35 - rpcQueueName: vs_device_rpc_queue
+17-12-2020 14:20:08.856 INFO  c.e.d.messaging.rabbitmq.RpcConfig.rpcExchange.41 - rpcExchangeName: vs_device_rpc_exchange
+17-12-2020 14:20:08.860 INFO  c.e.d.messaging.rabbitmq.RpcConfig.bindingRpc.47 - rpcRoutingKey: vs_device_rpc_key
+17-12-2020 14:20:08.887 INFO  c.e.d.m.rabbitmq.WorkerConfig.initWorkerQueue.24 - workerQueueName: vs_device_worker_queue
+17-12-2020 14:20:10.538 INFO  c.e.d.messaging.rabbitmq.RpcServer.rpcReceive.37 -  [-->] Server received request for {"requestMethod":"GET","requestPath":"/v1.0/device/count-gate-by-ha-id","urlParam":"11d7ff14-d06b-49c3-8791-43d44b5ca10a,","headerParam":{"authorization":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI1MGQ3ZmYxNC1kMDZiLTQ5YzMtODc5MS00M2Q0NGI1Y2E1OWQiLCJpYXQiOjE2MDgxODA0NjQsImV4cCI6MTYwODc4NTI2NH0.WJ6VA6a0QuCNAFZPmLvUZoQ7CLTakz989rXVKINObA69RiiUDRwq_2B2rNrG3qMN8-sfZZaJHlXL7dc9iVVTxA"}}
+17-12-2020 14:20:10.616 INFO  com.elcom.device.MainApplication.logStarted.61 - Started MainApplication in 14.179 seconds (JVM running for 15.075)
+17-12-2020 14:20:42.858 ERROR c.e.d.messaging.rabbitmq.RpcServer.rpcReceive.118 - java.lang.NullPointerException
+17-12-2020 14:20:43.255 INFO  c.e.d.messaging.rabbitmq.RpcServer.rpcReceive.37 -  [-->] Server received request for {"requestMethod":"GET","requestPath":"/v1.0/device/count-gate-by-ha-id","urlParam":"homeAdminIdLst\u003d11d7ff14-d06b-49c3-8791-43d44b5ca10a,","headerParam":{"authorization":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI1MGQ3ZmYxNC1kMDZiLTQ5YzMtODc5MS00M2Q0NGI1Y2E1OWQiLCJpYXQiOjE2MDgxODA0NjQsImV4cCI6MTYwODc4NTI2NH0.WJ6VA6a0QuCNAFZPmLvUZoQ7CLTakz989rXVKINObA69RiiUDRwq_2B2rNrG3qMN8-sfZZaJHlXL7dc9iVVTxA"}}
+17-12-2020 14:20:44.037 INFO  c.e.d.messaging.rabbitmq.RpcServer.rpcReceive.115 -  [<--] Server returned {"status":200,"message":"200 OK","data":{"status":200,"message":"200 OK","data":[{"countDevice":0}]}}
+17-12-2020 14:20:51.910 INFO  c.e.d.messaging.rabbitmq.RpcServer.rpcReceive.37 -  [-->] Server received request for {"requestMethod":"GET","requestPath":"/v1.0/device/count-gate-by-ha-id","urlParam":"homeAdminIdLst\u003d11d7ff14-d06b-49c3-8791-43d44b5ca10a,","headerParam":{"authorization":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI1MGQ3ZmYxNC1kMDZiLTQ5YzMtODc5MS00M2Q0NGI1Y2E1OWQiLCJpYXQiOjE2MDgxODA0NjQsImV4cCI6MTYwODc4NTI2NH0.WJ6VA6a0QuCNAFZPmLvUZoQ7CLTakz989rXVKINObA69RiiUDRwq_2B2rNrG3qMN8-sfZZaJHlXL7dc9iVVTxA"}}
+17-12-2020 14:22:51.205 INFO  c.e.d.messaging.rabbitmq.RpcServer.rpcReceive.115 -  [<--] Server returned {"status":200,"message":"200 OK","data":{"status":200,"message":"200 OK","data":[{"countDevice":0}]}}
+17-12-2020 14:22:55.389 INFO  c.e.d.messaging.rabbitmq.RpcServer.rpcReceive.37 -  [-->] Server received request for {"requestMethod":"GET","requestPath":"/v1.0/device/count-gate-by-ha-id","urlParam":"homeAdminIdLst\u003d11d7ff14-d06b-49c3-8791-43d44b5ca10a,","headerParam":{"authorization":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI1MGQ3ZmYxNC1kMDZiLTQ5YzMtODc5MS00M2Q0NGI1Y2E1OWQiLCJpYXQiOjE2MDgxODA0NjQsImV4cCI6MTYwODc4NTI2NH0.WJ6VA6a0QuCNAFZPmLvUZoQ7CLTakz989rXVKINObA69RiiUDRwq_2B2rNrG3qMN8-sfZZaJHlXL7dc9iVVTxA"}}
+17-12-2020 14:23:20.506 INFO  c.e.d.messaging.rabbitmq.RpcServer.rpcReceive.115 -  [<--] Server returned {"status":200,"message":"200 OK","data":{"status":200,"message":"200 OK","data":[{"homeAdminId":"11d7ff14-d06b-49c3-8791-43d44b5ca10a","countDevice":2}]}}
+17-12-2020 14:25:29.822 INFO  com.elcom.device.MainApplication.logStarting.55 - Starting MainApplication on DESKTOP-2U9UF8V with PID 12612 (E:\1.ELCOM\0.Vitalsign\1.televital-platform\VitalsignDeviceService\target\classes started by Admin in E:\1.ELCOM\0.Vitalsign\1.televital-platform\VitalsignDeviceService)
+17-12-2020 14:25:29.830 INFO  com.elcom.device.MainApplication.logStartupProfileInfo.651 - No active profile set, falling back to default profiles: default
+17-12-2020 14:25:36.039 INFO  c.e.d.messaging.rabbitmq.RpcConfig.initRpcQueue.35 - rpcQueueName: vs_device_rpc_queue
+17-12-2020 14:25:36.044 INFO  c.e.d.messaging.rabbitmq.RpcConfig.rpcExchange.41 - rpcExchangeName: vs_device_rpc_exchange
+17-12-2020 14:25:36.047 INFO  c.e.d.messaging.rabbitmq.RpcConfig.bindingRpc.47 - rpcRoutingKey: vs_device_rpc_key
+17-12-2020 14:25:36.066 INFO  c.e.d.m.rabbitmq.WorkerConfig.initWorkerQueue.24 - workerQueueName: vs_device_worker_queue
+17-12-2020 14:25:37.705 INFO  com.elcom.device.MainApplication.logStarted.61 - Started MainApplication in 8.618 seconds (JVM running for 9.191)
+17-12-2020 14:25:43.426 INFO  c.e.d.messaging.rabbitmq.RpcServer.rpcReceive.37 -  [-->] Server received request for {"requestMethod":"GET","requestPath":"/v1.0/device/count-gate-by-ha-id","urlParam":"homeAdminIdLst\u003d11d7ff14-d06b-49c3-8791-43d44b5ca10a,","headerParam":{"authorization":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI1MGQ3ZmYxNC1kMDZiLTQ5YzMtODc5MS00M2Q0NGI1Y2E1OWQiLCJpYXQiOjE2MDgxODA0NjQsImV4cCI6MTYwODc4NTI2NH0.WJ6VA6a0QuCNAFZPmLvUZoQ7CLTakz989rXVKINObA69RiiUDRwq_2B2rNrG3qMN8-sfZZaJHlXL7dc9iVVTxA"}}
+17-12-2020 14:25:43.700 INFO  c.e.d.messaging.rabbitmq.RpcServer.rpcReceive.115 -  [<--] Server returned {"status":200,"message":"200 OK","data":{"status":200,"message":"200 OK","data":[{"homeAdminId":"11d7ff14-d06b-49c3-8791-43d44b5ca10a","countDevice":2}]}}
+17-12-2020 14:42:21.348 INFO  com.elcom.device.MainApplication.logStarting.55 - Starting MainApplication on DESKTOP-2U9UF8V with PID 12360 (E:\1.ELCOM\0.Vitalsign\1.televital-platform\VitalsignDeviceService\target\classes started by Admin in E:\1.ELCOM\0.Vitalsign\1.televital-platform\VitalsignDeviceService)
+17-12-2020 14:42:21.352 INFO  com.elcom.device.MainApplication.logStartupProfileInfo.651 - No active profile set, falling back to default profiles: default
+17-12-2020 14:42:27.728 INFO  c.e.d.messaging.rabbitmq.RpcConfig.initRpcQueue.35 - rpcQueueName: vs_device_rpc_queue
+17-12-2020 14:42:27.733 INFO  c.e.d.messaging.rabbitmq.RpcConfig.rpcExchange.41 - rpcExchangeName: vs_device_rpc_exchange
+17-12-2020 14:42:27.737 INFO  c.e.d.messaging.rabbitmq.RpcConfig.bindingRpc.47 - rpcRoutingKey: vs_device_rpc_key
+17-12-2020 14:42:27.757 INFO  c.e.d.m.rabbitmq.WorkerConfig.initWorkerQueue.24 - workerQueueName: vs_device_worker_queue
+17-12-2020 14:42:29.404 INFO  com.elcom.device.MainApplication.logStarted.61 - Started MainApplication in 8.78 seconds (JVM running for 9.359)
+17-12-2020 14:43:47.493 INFO  c.e.d.messaging.rabbitmq.RpcServer.rpcReceive.37 -  [-->] Server received request for {"requestMethod":"GET","requestPath":"/v1.0/device/count-gate-by-ha-id","urlParam":"homeAdminIdLst\u003d11d7ff14-d06b-49c3-8791-43d44b5ca10a,","headerParam":{"authorization":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI1MGQ3ZmYxNC1kMDZiLTQ5YzMtODc5MS00M2Q0NGI1Y2E1OWQiLCJpYXQiOjE2MDgxODA0NjQsImV4cCI6MTYwODc4NTI2NH0.WJ6VA6a0QuCNAFZPmLvUZoQ7CLTakz989rXVKINObA69RiiUDRwq_2B2rNrG3qMN8-sfZZaJHlXL7dc9iVVTxA"}}
+17-12-2020 14:43:47.780 INFO  c.e.d.messaging.rabbitmq.RpcServer.rpcReceive.115 -  [<--] Server returned {"status":200,"message":"200 OK","data":{"status":200,"message":"200 OK","data":[{"homeAdminId":"11d7ff14-d06b-49c3-8791-43d44b5ca10a","countDevice":2}]}}
+17-12-2020 14:46:12.988 INFO  c.e.d.messaging.rabbitmq.RpcServer.rpcReceive.37 -  [-->] Server received request for {"requestMethod":"GET","requestPath":"/v1.0/device/count-gate-by-ha-id","urlParam":"homeAdminIdLst\u003d11d7ff14-d06b-49c3-8791-43d44b5ca10a,","headerParam":{"authorization":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI1MGQ3ZmYxNC1kMDZiLTQ5YzMtODc5MS00M2Q0NGI1Y2E1OWQiLCJpYXQiOjE2MDgxODA0NjQsImV4cCI6MTYwODc4NTI2NH0.WJ6VA6a0QuCNAFZPmLvUZoQ7CLTakz989rXVKINObA69RiiUDRwq_2B2rNrG3qMN8-sfZZaJHlXL7dc9iVVTxA"}}
+17-12-2020 14:46:30.794 INFO  c.e.d.messaging.rabbitmq.RpcServer.rpcReceive.115 -  [<--] Server returned {"status":200,"message":"200 OK","data":{"status":200,"message":"200 OK","data":[{"homeAdminId":"11d7ff14-d06b-49c3-8791-43d44b5ca10a","countDevice":2}]}}
+17-12-2020 14:48:31.735 INFO  c.e.d.messaging.rabbitmq.RpcServer.rpcReceive.37 -  [-->] Server received request for {"requestMethod":"GET","requestPath":"/v1.0/device/count-gate-by-ha-id","urlParam":"homeAdminIdLst\u003d11d7ff14-d06b-49c3-8791-43d44b5ca10a,","headerParam":{"authorization":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI1MGQ3ZmYxNC1kMDZiLTQ5YzMtODc5MS00M2Q0NGI1Y2E1OWQiLCJpYXQiOjE2MDgxODA0NjQsImV4cCI6MTYwODc4NTI2NH0.WJ6VA6a0QuCNAFZPmLvUZoQ7CLTakz989rXVKINObA69RiiUDRwq_2B2rNrG3qMN8-sfZZaJHlXL7dc9iVVTxA"}}
+17-12-2020 14:48:31.841 INFO  c.e.d.messaging.rabbitmq.RpcServer.rpcReceive.115 -  [<--] Server returned {"status":200,"message":"200 OK","data":{"status":200,"message":"200 OK","data":[{"homeAdminId":"11d7ff14-d06b-49c3-8791-43d44b5ca10a","countDevice":2}]}}
+17-12-2020 14:48:38.285 INFO  c.e.d.messaging.rabbitmq.RpcServer.rpcReceive.37 -  [-->] Server received request for {"requestMethod":"GET","requestPath":"/v1.0/device/count-gate-by-ha-id","urlParam":"homeAdminIdLst\u003d11d7ff14-d06b-49c3-8791-43d44b5ca10a,","headerParam":{"authorization":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI1MGQ3ZmYxNC1kMDZiLTQ5YzMtODc5MS00M2Q0NGI1Y2E1OWQiLCJpYXQiOjE2MDgxODA0NjQsImV4cCI6MTYwODc4NTI2NH0.WJ6VA6a0QuCNAFZPmLvUZoQ7CLTakz989rXVKINObA69RiiUDRwq_2B2rNrG3qMN8-sfZZaJHlXL7dc9iVVTxA"}}
+17-12-2020 14:48:38.373 INFO  c.e.d.messaging.rabbitmq.RpcServer.rpcReceive.115 -  [<--] Server returned {"status":200,"message":"200 OK","data":{"status":200,"message":"200 OK","data":[{"homeAdminId":"11d7ff14-d06b-49c3-8791-43d44b5ca10a","countDevice":2}]}}
+17-12-2020 14:51:13.854 INFO  com.elcom.device.MainApplication.logStarting.55 - Starting MainApplication on DESKTOP-2U9UF8V with PID 3172 (E:\1.ELCOM\0.Vitalsign\1.televital-platform\VitalsignDeviceService\target\classes started by Admin in E:\1.ELCOM\0.Vitalsign\1.televital-platform\VitalsignDeviceService)
+17-12-2020 14:51:13.859 INFO  com.elcom.device.MainApplication.logStartupProfileInfo.651 - No active profile set, falling back to default profiles: default
+17-12-2020 14:51:21.146 INFO  c.e.d.messaging.rabbitmq.RpcConfig.initRpcQueue.35 - rpcQueueName: vs_device_rpc_queue
+17-12-2020 14:51:21.153 INFO  c.e.d.messaging.rabbitmq.RpcConfig.rpcExchange.41 - rpcExchangeName: vs_device_rpc_exchange
+17-12-2020 14:51:21.156 INFO  c.e.d.messaging.rabbitmq.RpcConfig.bindingRpc.47 - rpcRoutingKey: vs_device_rpc_key
+17-12-2020 14:51:21.244 INFO  c.e.d.m.rabbitmq.WorkerConfig.initWorkerQueue.24 - workerQueueName: vs_device_worker_queue
+17-12-2020 14:51:23.695 INFO  com.elcom.device.MainApplication.logStarted.61 - Started MainApplication in 10.612 seconds (JVM running for 11.185)
+17-12-2020 14:58:28.579 INFO  com.elcom.device.MainApplication.logStarting.55 - Starting MainApplication on DESKTOP-2U9UF8V with PID 9736 (E:\1.ELCOM\0.Vitalsign\1.televital-platform\VitalsignDeviceService\target\classes started by Admin in E:\1.ELCOM\0.Vitalsign\1.televital-platform\VitalsignDeviceService)
+17-12-2020 14:58:28.585 INFO  com.elcom.device.MainApplication.logStartupProfileInfo.651 - No active profile set, falling back to default profiles: default
+17-12-2020 14:58:33.970 INFO  c.e.d.messaging.rabbitmq.RpcConfig.initRpcQueue.35 - rpcQueueName: vs_device_rpc_queue
+17-12-2020 14:58:33.974 INFO  c.e.d.messaging.rabbitmq.RpcConfig.rpcExchange.41 - rpcExchangeName: vs_device_rpc_exchange
+17-12-2020 14:58:33.978 INFO  c.e.d.messaging.rabbitmq.RpcConfig.bindingRpc.47 - rpcRoutingKey: vs_device_rpc_key
+17-12-2020 14:58:34.004 INFO  c.e.d.m.rabbitmq.WorkerConfig.initWorkerQueue.24 - workerQueueName: vs_device_worker_queue
+17-12-2020 14:58:35.575 INFO  com.elcom.device.MainApplication.logStarted.61 - Started MainApplication in 7.736 seconds (JVM running for 8.317)
+17-12-2020 14:59:41.569 INFO  c.e.d.messaging.rabbitmq.RpcServer.rpcReceive.37 -  [-->] Server received request for {"requestMethod":"GET","requestPath":"/v1.0/device/count-gate-by-ha-id","urlParam":"homeAdminIdLst\u003d11d7ff14-d06b-49c3-8791-43d44b5ca10a,","headerParam":{"authorization":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI1MGQ3ZmYxNC1kMDZiLTQ5YzMtODc5MS00M2Q0NGI1Y2E1OWQiLCJpYXQiOjE2MDgxODA0NjQsImV4cCI6MTYwODc4NTI2NH0.WJ6VA6a0QuCNAFZPmLvUZoQ7CLTakz989rXVKINObA69RiiUDRwq_2B2rNrG3qMN8-sfZZaJHlXL7dc9iVVTxA"}}
+17-12-2020 14:59:41.803 INFO  c.e.d.messaging.rabbitmq.RpcServer.rpcReceive.115 -  [<--] Server returned {"status":200,"message":"200 OK","data":{"status":200,"message":"200 OK","data":[{"homeAdminId":"11d7ff14-d06b-49c3-8791-43d44b5ca10a","countDevice":2}]}}
+17-12-2020 15:06:41.308 INFO  c.e.d.messaging.rabbitmq.RpcServer.rpcReceive.37 -  [-->] Server received request for {"requestMethod":"GET","requestPath":"/v1.0/device/count-gate-by-ha-id","urlParam":"homeAdminIdLst\u003d11d7ff14-d06b-49c3-8791-43d44b5ca10a,","headerParam":{"authorization":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI1MGQ3ZmYxNC1kMDZiLTQ5YzMtODc5MS00M2Q0NGI1Y2E1OWQiLCJpYXQiOjE2MDgxODA0NjQsImV4cCI6MTYwODc4NTI2NH0.WJ6VA6a0QuCNAFZPmLvUZoQ7CLTakz989rXVKINObA69RiiUDRwq_2B2rNrG3qMN8-sfZZaJHlXL7dc9iVVTxA"}}
+17-12-2020 15:06:41.388 INFO  c.e.d.messaging.rabbitmq.RpcServer.rpcReceive.115 -  [<--] Server returned {"status":200,"message":"200 OK","data":{"status":200,"message":"200 OK","data":[{"homeAdminId":"11d7ff14-d06b-49c3-8791-43d44b5ca10a","countDevice":2}]}}
+17-12-2020 15:19:17.068 INFO  com.elcom.device.MainApplication.logStarting.55 - Starting MainApplication on DESKTOP-2U9UF8V with PID 7536 (E:\1.ELCOM\0.Vitalsign\1.televital-platform\VitalsignDeviceService\target\classes started by Admin in E:\1.ELCOM\0.Vitalsign\1.televital-platform\VitalsignDeviceService)
+17-12-2020 15:19:17.072 INFO  com.elcom.device.MainApplication.logStartupProfileInfo.651 - No active profile set, falling back to default profiles: default
+17-12-2020 15:19:23.976 INFO  c.e.d.messaging.rabbitmq.RpcConfig.initRpcQueue.35 - rpcQueueName: vs_device_rpc_queue
+17-12-2020 15:19:23.980 INFO  c.e.d.messaging.rabbitmq.RpcConfig.rpcExchange.41 - rpcExchangeName: vs_device_rpc_exchange
+17-12-2020 15:19:23.984 INFO  c.e.d.messaging.rabbitmq.RpcConfig.bindingRpc.47 - rpcRoutingKey: vs_device_rpc_key
+17-12-2020 15:19:24.000 INFO  c.e.d.m.rabbitmq.WorkerConfig.initWorkerQueue.24 - workerQueueName: vs_device_worker_queue
+17-12-2020 15:19:26.772 INFO  com.elcom.device.MainApplication.logStarted.61 - Started MainApplication in 10.566 seconds (JVM running for 11.214)
+17-12-2020 15:20:03.150 INFO  c.e.d.messaging.rabbitmq.RpcServer.rpcReceive.40 -  [-->] Server received request for {"requestMethod":"GET","requestPath":"/v1.0/device/count-gate-by-ha-id","urlParam":"homeAdminIdLst\u003d11d7ff14-d06b-49c3-8791-43d44b5ca10a,","headerParam":{"authorization":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI1MGQ3ZmYxNC1kMDZiLTQ5YzMtODc5MS00M2Q0NGI1Y2E1OWQiLCJpYXQiOjE2MDgxODA0NjQsImV4cCI6MTYwODc4NTI2NH0.WJ6VA6a0QuCNAFZPmLvUZoQ7CLTakz989rXVKINObA69RiiUDRwq_2B2rNrG3qMN8-sfZZaJHlXL7dc9iVVTxA"}}
+17-12-2020 15:20:03.439 INFO  c.e.d.messaging.rabbitmq.RpcServer.rpcReceive.93 -  [<--] Server returned [com.elcom.device.model.dto.DeviceHaDTO@10b6ea59]
+17-12-2020 15:21:04.100 INFO  c.e.d.messaging.rabbitmq.RpcServer.rpcReceive.40 -  [-->] Server received request for {"requestMethod":"GET","requestPath":"/v1.0/device/count-gate-by-ha-id","urlParam":"homeAdminIdLst\u003d11d7ff14-d06b-49c3-8791-43d44b5ca10a,","headerParam":{"authorization":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI1MGQ3ZmYxNC1kMDZiLTQ5YzMtODc5MS00M2Q0NGI1Y2E1OWQiLCJpYXQiOjE2MDgxODA0NjQsImV4cCI6MTYwODc4NTI2NH0.WJ6VA6a0QuCNAFZPmLvUZoQ7CLTakz989rXVKINObA69RiiUDRwq_2B2rNrG3qMN8-sfZZaJHlXL7dc9iVVTxA"}}
+17-12-2020 15:21:04.120 INFO  c.e.d.messaging.rabbitmq.RpcServer.rpcReceive.93 -  [<--] Server returned [com.elcom.device.model.dto.DeviceHaDTO@7bb141b2]
+17-12-2020 15:28:24.341 INFO  com.elcom.device.MainApplication.logStarting.55 - Starting MainApplication on DESKTOP-2U9UF8V with PID 5396 (E:\1.ELCOM\0.Vitalsign\1.televital-platform\VitalsignDeviceService\target\classes started by Admin in E:\1.ELCOM\0.Vitalsign\1.televital-platform\VitalsignDeviceService)
+17-12-2020 15:28:24.346 INFO  com.elcom.device.MainApplication.logStartupProfileInfo.651 - No active profile set, falling back to default profiles: default
+17-12-2020 15:28:25.116 ERROR o.s.boot.SpringApplication.reportFailure.826 - Application run failed
+java.lang.IllegalStateException: Error processing condition on org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration.propertySourcesPlaceholderConfigurer
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:60)
+	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:108)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForBeanMethod(ConfigurationClassBeanDefinitionReader.java:184)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:144)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:120)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:331)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:236)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:280)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:96)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:706)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:532)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.elcom.device.MainApplication.main(MainApplication.java:15)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.elcom.device.messaging.rabbitmq.RpcConfig] from ClassLoader [sun.misc.Launcher$AppClassLoader@18b4aac2]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:481)
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:358)
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:414)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.lambda$getTypeForFactoryMethod$2(AbstractAutowireCapableBeanFactory.java:743)
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1660)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:742)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:681)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:649)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1608)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:526)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:497)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.collectBeanNamesForType(OnBeanCondition.java:230)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:223)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:213)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchingBeans(OnBeanCondition.java:167)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchOutcome(OnBeanCondition.java:142)
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:47)
+	... 17 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: com/elcom/device/messaging/rabbitmq/RpcServer
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	at java.lang.Class.getDeclaredMethods(Class.java:1975)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:463)
+	... 33 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.elcom.device.messaging.rabbitmq.RpcServer
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:355)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+	... 37 common frames omitted
+17-12-2020 15:29:11.190 INFO  com.elcom.device.MainApplication.logStarting.55 - Starting MainApplication on DESKTOP-2U9UF8V with PID 11048 (E:\1.ELCOM\0.Vitalsign\1.televital-platform\VitalsignDeviceService\target\classes started by Admin in E:\1.ELCOM\0.Vitalsign\1.televital-platform\VitalsignDeviceService)
+17-12-2020 15:29:11.203 INFO  com.elcom.device.MainApplication.logStartupProfileInfo.651 - No active profile set, falling back to default profiles: default
+17-12-2020 15:29:16.828 INFO  c.e.d.messaging.rabbitmq.RpcConfig.initRpcQueue.35 - rpcQueueName: vs_device_rpc_queue
+17-12-2020 15:29:16.833 INFO  c.e.d.messaging.rabbitmq.RpcConfig.rpcExchange.41 - rpcExchangeName: vs_device_rpc_exchange
+17-12-2020 15:29:16.835 INFO  c.e.d.messaging.rabbitmq.RpcConfig.bindingRpc.47 - rpcRoutingKey: vs_device_rpc_key
+17-12-2020 15:29:16.854 INFO  c.e.d.m.rabbitmq.WorkerConfig.initWorkerQueue.24 - workerQueueName: vs_device_worker_queue
+17-12-2020 15:29:18.674 INFO  com.elcom.device.MainApplication.logStarted.61 - Started MainApplication in 8.32 seconds (JVM running for 8.972)

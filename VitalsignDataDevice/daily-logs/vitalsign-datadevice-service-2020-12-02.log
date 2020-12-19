@@ -1,0 +1,29 @@
+02-12-2020 10:14:32.124 INFO  c.e.v.VitalsignProjectServicesApplication.logStarting - Starting VitalsignProjectServicesApplication on DESKTOP-2U9UF8V with PID 6100 (E:\1.ELCOM\Vitalsign\1.televital-platform\VitalsignDataDevice\target\classes started by Admin in E:\1.ELCOM\Vitalsign\1.televital-platform\VitalsignDataDevice)
+02-12-2020 10:14:32.544 INFO  c.e.v.VitalsignProjectServicesApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+02-12-2020 10:14:34.116 INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+02-12-2020 10:14:34.147 INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 5.4.15.Final
+02-12-2020 10:14:34.233 INFO  o.h.annotations.common.Version.<clinit> - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+02-12-2020 10:14:34.378 INFO  org.hibernate.dialect.Dialect.<init> - HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+02-12-2020 10:14:34.904 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+02-12-2020 10:14:36.198 ERROR o.s.b.d.LoggingFailureAnalysisReporter.report - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8070 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8070 or configure this application to listen on another port.
+
+02-12-2020 10:15:11.605 INFO  c.e.v.VitalsignProjectServicesApplication.logStarting - Starting VitalsignProjectServicesApplication on DESKTOP-2U9UF8V with PID 7144 (E:\1.ELCOM\Vitalsign\1.televital-platform\VitalsignDataDevice\target\classes started by Admin in E:\1.ELCOM\Vitalsign\1.televital-platform\VitalsignDataDevice)
+02-12-2020 10:15:11.608 INFO  c.e.v.VitalsignProjectServicesApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+02-12-2020 10:15:13.117 INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+02-12-2020 10:15:13.150 INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 5.4.15.Final
+02-12-2020 10:15:13.233 INFO  o.h.annotations.common.Version.<clinit> - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+02-12-2020 10:15:13.362 INFO  org.hibernate.dialect.Dialect.<init> - HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+02-12-2020 10:15:13.880 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+02-12-2020 10:15:14.707 INFO  c.e.v.VitalsignProjectServicesApplication.logStarted - Started VitalsignProjectServicesApplication in 3.508 seconds (JVM running for 3.925)

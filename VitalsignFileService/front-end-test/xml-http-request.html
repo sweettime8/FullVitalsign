@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+        <title>Front end test</title>
+        <link rel="stylesheet" href="css/main.css" />
+    </head>
+    <body>
+        <div class="upload-container">
+            <div class="upload-header">
+                <h2>Front end test</h2>
+            </div>
+            <div class="upload-content">
+                <div style="margin-top: 10px;">
+                    <input id="email" size="6" placeholder ="email" value="hanm@elcom.com.vn"/>
+                    <input id="password" size="6" placeholder="password" value="123456"/>
+                    <button class="primary submit-btn" onclick="postData();">Login</button>
+                    <button class="primary submit-btn" onclick="getData();">Get data sau login</button>
+                </div>
+                <div class="single-upload">
+                    <h3>Upload 1 File</h3>
+                    <form id="singleUploadForm" name="singleUploadForm">
+                        <input id="singleFileUploadInput" type="file" name="file" class="file-input" required />
+                        <button type="submit" class="primary submit-btn">Tải lên</button>	
+                    </form>
+                    <div class="upload-response">
+                        <div id="singleFileUploadError"></div>
+                        <div id="singleFileUploadSuccess"></div>
+                    </div>
+                </div>
+                <div class="multiple-upload">
+                    <h3>Upload nhiều file</h3>
+                    <form id="multipleUploadForm" name="multipleUploadForm">
+                        <input id="multipleFileUploadInput" type="file" name="files" class="file-input" multiple required />
+                        <button type="submit" class="primary submit-btn">Tải lên</button>
+                    </form>
+                    <div class="upload-response">
+                        <div id="multipleFileUploadError"></div>
+                        <div id="multipleFileUploadSuccess"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="js/xml-http-request.js" ></script>
+        <script src="js/jquery-3.5.1.min.js"></script>
+        <script src="js/axios.min.js"></script>
+    </body>
+</html>

@@ -1,0 +1,55 @@
+[
+    {
+        "path": "/upload/measure-data/temp",
+        "folder": "/upload/measure-data/temp/{ddmmyyyy}",
+        "accept": "application/vnd.rar,application/x-rar-compressed,application/octet-stream,application/zip,application/x-zip-compressed,multipart/x-zip,text/plain",
+        "maxSize": 104857600
+    },
+    {
+        "path": "/upload/measure-data/bp",
+        "folder": "/upload/measure-data/bp/{ddmmyyyy}",
+        "accept": "application/vnd.rar,application/x-rar-compressed,application/octet-stream,application/zip,application/x-zip-compressed,multipart/x-zip,text/plain",
+        "maxSize": 104857600
+    },
+    {
+        "path": "/upload/measure-data/spo2",
+        "folder": "/upload/measure-data/spo2/{ddmmyyyy}",
+        "accept": "application/vnd.rar,application/x-rar-compressed,application/octet-stream,application/zip,application/x-zip-compressed,multipart/x-zip,text/plain",
+        "maxSize": 104857600
+    },
+    {
+        "path": "/upload/user/avatar",
+        "folder": "/upload/user/avatar/{ddmmyyyy}",
+        "accept": "image/jpeg,image/png,image/gif,image/bmp",
+        "maxSize": 20971520
+    },
+    {
+        "path": "/upload/user/cv",
+        "folder": "/upload/user/cv/{ddmmyyyy}",
+        "accept": "application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document,application/pdf",
+        "maxSize": 52428800
+    },
+    {
+        "path": "/upload/user/file",
+        "folder": "/upload/user/file/{ddmmyyyy}",
+        "accept": "text/plain",
+        "maxSize": 2097152
+    },
+    {
+        "path": "/upload/video",
+        "folder": "/upload/video/{ddmmyyyy}",
+        "accept": "video/x-flv,video/mp4,video/3gpp,video/x-msvideo,video/x-ms-wmv,video/quicktime,video/webm",
+        "maxSize": 104857600
+    },{
+        "path": "/upload/store/image",
+        "folder": "/upload/store/image/{ddmmyyyy}",
+        "accept": "image/jpeg,image/png,image/gif,image/bmp",
+        "maxSize": 20971520
+    },{
+        "path": "/upload/qa/image",
+        "folder": "/upload/qa/image/{ddmmyyyy}",
+        "accept": "image/jpeg,image/png,image/gif,image/bmp",
+        "maxSize": 1048576
+    }
+
+]

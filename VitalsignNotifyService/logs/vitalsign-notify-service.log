@@ -1,0 +1,7 @@
+14-12-2020 08:49:22.613 INFO  com.elcom.notify.MainApplication.logStarting.55 - Starting MainApplication on DESKTOP-2U9UF8V with PID 7408 (E:\1.ELCOM\0.Vitalsign\1.televital-platform\VitalsignNotifyService\target\classes started by Admin in E:\1.ELCOM\0.Vitalsign\1.televital-platform\VitalsignNotifyService)
+14-12-2020 08:49:22.638 INFO  com.elcom.notify.MainApplication.logStartupProfileInfo.651 - No active profile set, falling back to default profiles: default
+14-12-2020 08:49:31.568 INFO  c.e.n.messaging.rabbitmq.RpcConfig.initRpcQueue.35 - rpcQueueName: vs_notify_rpc_queue
+14-12-2020 08:49:31.573 INFO  c.e.n.messaging.rabbitmq.RpcConfig.rpcExchange.41 - rpcExchangeName: vs_notify_rpc_exchange
+14-12-2020 08:49:31.576 INFO  c.e.n.messaging.rabbitmq.RpcConfig.bindingRpc.47 - rpcRoutingKey: vs_notify_rpc_key
+14-12-2020 08:49:31.629 INFO  c.e.n.m.rabbitmq.WorkerConfig.initWorkerQueue.24 - workerQueueName: vs_notify_worker_queue
+14-12-2020 08:49:33.462 INFO  com.elcom.notify.MainApplication.logStarted.61 - Started MainApplication in 11.79 seconds (JVM running for 12.631)

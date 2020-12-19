@@ -1,0 +1,100 @@
+[
+    {
+        "path": "/user-system/find-profiles-by-doctor",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/user-system/find-details-profile",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/user-system/find-profiles-by-home-admin",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/user-system/find-doctors-by-home-admin",
+        "method": "GET",
+        "rabbit": "rpc"
+    }, {
+        "path": "/user-system/create-profile",
+        "method": "POST",
+        "rabbit": "rpc"
+    }, {
+        "path": "/user-system/edit-profile",
+        "method": "PUT",
+        "rabbit": "rpc"
+    }, {
+        "path": "/user-system/delete-profile",
+        "method": "DELETE",
+        "rabbit": "rpc"
+    }, {
+        "path": "/user-system/create-doctor",
+        "method": "POST",
+        "rabbit": "rpc"
+    }, {
+        "path": "/user-system/edit-doctor",
+        "method": "PUT",
+        "rabbit": "rpc"
+    }, {
+        "path": "/user-system/delete-doctor",
+        "method": "DELETE",
+        "rabbit": "rpc"
+    }, {
+        "path": "/user-system/find-doctors",
+        "method": "GET",
+        "rabbit": "rpc"
+    }, {
+        "path": "/user-system/find-doctor-by-doctorId",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/user-system/get-customer-by-bu",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/user-system/get-detail-customer",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/user-system/create-customer",
+        "method": "POST",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/user-system/edit-customer",
+        "method": "PUT",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/user-system/delete-customer",
+        "method": "DELETE",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/user-system/find-customer-by-id",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/user-system/find-doctors-by-name",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/user-system/add-doctor-for-customer",
+        "method": "POST",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/user-system/remove-doctor-of-customer",
+        "method": "DELETE",
+        "rabbit": "rpc"
+    }
+]
+

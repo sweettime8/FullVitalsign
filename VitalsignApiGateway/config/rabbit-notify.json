@@ -1,0 +1,13 @@
+[    
+    {
+        "path": "/notify",
+        "method": "GET",
+        "rabbit": "rpc"
+    }, 
+    {
+        "path": "/notify/check-notify",
+        "method": "POST",
+        "rabbit": "worker"
+    }
+]
+

@@ -1,0 +1,7 @@
+11-12-2020 13:27:01.153 INFO  com.elcom.usersystem.MainApplication.logStarting.55 - Starting MainApplication on DESKTOP-2U9UF8V with PID 3460 (E:\1.ELCOM\0.Vitalsign\1.televital-platform\VitalsignUserSystemService\target\classes started by Admin in E:\1.ELCOM\0.Vitalsign\1.televital-platform\VitalsignUserSystemService)
+11-12-2020 13:27:01.157 INFO  com.elcom.usersystem.MainApplication.logStartupProfileInfo.651 - No active profile set, falling back to default profiles: default
+11-12-2020 13:27:05.933 INFO  c.e.u.messaging.rabbitmq.RpcConfig.initRpcQueue.35 - rpcQueueName: vs_user_system_rpc_queue
+11-12-2020 13:27:05.936 INFO  c.e.u.messaging.rabbitmq.RpcConfig.rpcExchange.41 - rpcExchangeName: vs_user_system_rpc_exchange
+11-12-2020 13:27:05.939 INFO  c.e.u.messaging.rabbitmq.RpcConfig.bindingRpc.47 - rpcRoutingKey: vs_user_system_rpc_key
+11-12-2020 13:27:05.954 INFO  c.e.u.m.rabbitmq.WorkerConfig.initWorkerQueue.24 - workerQueueName: vs_user_system_worker_queue
+11-12-2020 13:27:07.060 INFO  com.elcom.usersystem.MainApplication.logStarted.61 - Started MainApplication in 6.529 seconds (JVM running for 7.049)

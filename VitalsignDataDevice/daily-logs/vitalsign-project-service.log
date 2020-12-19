@@ -1,0 +1,20 @@
+17-12-2020 14:06:33.787 INFO  c.e.v.VitalsignProjectServicesApplication.logStarting - Starting VitalsignProjectServicesApplication on DESKTOP-2U9UF8V with PID 10920 (E:\1.ELCOM\0.Vitalsign\1.televital-platform\VitalsignDataDevice\target\classes started by Admin in E:\1.ELCOM\0.Vitalsign\1.televital-platform\VitalsignDataDevice)
+17-12-2020 14:06:33.795 INFO  c.e.v.VitalsignProjectServicesApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+17-12-2020 14:06:36.876 INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+17-12-2020 14:06:36.920 INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 5.4.15.Final
+17-12-2020 14:06:37.108 INFO  o.h.annotations.common.Version.<clinit> - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+17-12-2020 14:06:37.207 INFO  org.hibernate.dialect.Dialect.<init> - HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+17-12-2020 14:06:38.199 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+17-12-2020 14:06:40.049 INFO  c.e.v.VitalsignProjectServicesApplication.logStarted - Started VitalsignProjectServicesApplication in 6.766 seconds (JVM running for 7.244)
+17-12-2020 14:06:40.090 INFO  c.e.v.mqtt.MqttSubscriberInitApp.subscribersByDisplay - [subscribersByDisplay topic ]
+17-12-2020 14:06:41.240 INFO  c.e.v.mqtt.MqttSubscriberInitApp.subscribersByDisplay - [DISPLAY/REQ/GATE/SENSOR/#000000001] subscribe topic [DISPLAY/REQ/GATE/SENSOR/#] SUCCESS!
+17-12-2020 14:06:41.348 INFO  c.e.v.mqtt.MqttSubscriberInitApp.subscribersByDisplay - [DISPLAY/UNLINK/GATE/REQ/#000000001] subscribe topic [DISPLAY/UNLINK/GATE/REQ/#] SUCCESS!
+17-12-2020 14:06:41.515 INFO  c.e.v.mqtt.MqttSubscriberInitApp.subscribersByDisplay - [GET/PATIENT/LIST/#000000001] subscribe topic [GET/PATIENT/LIST/#] SUCCESS!
+17-12-2020 14:06:41.751 INFO  c.e.v.mqtt.MqttSubscriberInitApp.subscribersByDisplay - [DISPLAY/LINK/GATE/REQ/#000000001] subscribe topic [DISPLAY/LINK/GATE/REQ/#] SUCCESS!
+17-12-2020 14:06:42.019 INFO  c.e.v.mqtt.MqttSubscriberInitApp.subscribersByDisplay - [RES/CONNECT/TO/SENSOR/#000000001] subscribe topic [RES/CONNECT/TO/SENSOR/#] SUCCESS!
+17-12-2020 14:06:42.258 INFO  c.e.v.mqtt.MqttSubscriberInitApp.subscribersByDisplay - [RES/DISCONNECT/TO/SENSOR/#000000001] subscribe topic [RES/DISCONNECT/TO/SENSOR/#] SUCCESS!
+17-12-2020 14:06:42.466 INFO  c.e.v.mqtt.MqttSubscriberInitApp.subscribersByDisplay - [DISPLAY/SERVER/SEARCH_GATE_REQ/#000000001] subscribe topic [DISPLAY/SERVER/SEARCH_GATE_REQ/#] SUCCESS!
+17-12-2020 14:06:42.678 INFO  c.e.v.mqtt.MqttSubscriberInitApp.subscribersByDisplay - [DISPLAY/SERVER/GET_GATE_SENSOR_LINKED_REQ/#000000001] subscribe topic [DISPLAY/SERVER/GET_GATE_SENSOR_LINKED_REQ/#] SUCCESS!
+17-12-2020 14:06:42.679 INFO  c.e.v.mqtt.MqttSubscriberInitApp.subscribersByGate - [subscribersByGate topic ]
+17-12-2020 14:06:43.157 INFO  c.e.v.mqtt.MqttSubscriberInitApp.subscribersByGate - [GATE/REQ/DISPLAY/SENSOR/#000000001] subscribe topic [GATE/REQ/DISPLAY/SENSOR/#] SUCCESS!
+17-12-2020 14:06:43.379 INFO  c.e.v.mqtt.MqttSubscriberInitApp.subscribersByGate - [GATE/SERVER/ADD_SENSOR_REQ/#000000001] subscribe topic [GATE/SERVER/ADD_SENSOR_REQ/#] SUCCESS!

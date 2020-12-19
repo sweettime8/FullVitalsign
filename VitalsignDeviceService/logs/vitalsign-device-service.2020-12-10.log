@@ -1,0 +1,112 @@
+10-12-2020 13:38:25.330 INFO  com.elcom.device.MainApplication.logStarting.55 - Starting MainApplication on DESKTOP-2U9UF8V with PID 11312 (E:\1.ELCOM\0.Vitalsign\1.televital-platform\VitalsignDeviceService\target\classes started by Admin in E:\1.ELCOM\0.Vitalsign\1.televital-platform\VitalsignDeviceService)
+10-12-2020 13:38:25.337 INFO  com.elcom.device.MainApplication.logStartupProfileInfo.651 - No active profile set, falling back to default profiles: default
+10-12-2020 13:38:30.715 INFO  c.e.d.messaging.rabbitmq.RpcConfig.initRpcQueue.35 - rpcQueueName: vs_device_rpc_queue
+10-12-2020 13:38:30.721 INFO  c.e.d.messaging.rabbitmq.RpcConfig.rpcExchange.41 - rpcExchangeName: vs_device_rpc_exchange
+10-12-2020 13:38:30.727 INFO  c.e.d.messaging.rabbitmq.RpcConfig.bindingRpc.47 - rpcRoutingKey: vs_device_rpc_key
+10-12-2020 13:38:30.741 INFO  c.e.d.m.rabbitmq.WorkerConfig.initWorkerQueue.24 - workerQueueName: vs_device_worker_queue
+10-12-2020 13:38:31.962 INFO  c.e.d.messaging.rabbitmq.RpcServer.rpcReceive.36 -  [-->] Server received request for {"requestMethod":"GET","requestPath":"/v1.0/device/decrypt-device-token","headerParam":{"authorization":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI1MGQ3ZmYxNC1kMDZiLTQ5YzMtODc5MS00M2Q0NGI1Y2E1OWQiLCJpYXQiOjE2MDc0NzgyOTAsImV4cCI6MTYwODA4MzA5MH0.ZXSaM99JgbFRSTi9TsrppXHCKy3X3N1KR-i8S1svkd3C6pdmOU7fwDe01dN0yAaiu8jgUKS_6BtF1SyDdwCKKw","user-agent":"PostmanRuntime/7.26.8","accept":"*/*","postman-token":"e99addb6-63c8-4f6f-bcc2-77cbe77d1ba8","host":"103.21.151.131:8415","accept-encoding":"gzip, deflate, br","connection":"keep-alive","cookie":"JSESSIONID\u003dE9587C1BB0EF2A8FE142AF31AB9E37A4"}}
+10-12-2020 13:38:32.081 INFO  com.elcom.device.MainApplication.logStarted.61 - Started MainApplication in 7.375 seconds (JVM running for 7.876)
+10-12-2020 13:38:32.097 ERROR c.e.device.bussiness.DeviceBusiness.decryptDeviceToken.146 - deviceToken (header) không ???c tr?ng
+10-12-2020 13:38:32.109 INFO  c.e.d.messaging.rabbitmq.RpcServer.rpcReceive.85 -  [<--] Server returned null
+10-12-2020 13:38:32.123 INFO  c.e.d.messaging.rabbitmq.RpcServer.rpcReceive.36 -  [-->] Server received request for {"requestMethod":"GET","requestPath":"/v1.0/device/decrypt-device-token","headerParam":{"device-token":"iPLZxCJ0Aa079ZU9qXoFK199+tgJSEG2/vNnq6xD9nMoaMHf73fr/23RtUVzYxBGZw4n8CJ0UmyTlc6bUuxlIDWgivK2nhmVaIIzGR92oFtDWPbOwIcnEgwjmpryEN1NALlchrtYHCFFXAGLnMWcPPiRH01kuKMvM0H4ligRykSQNlTiN7gjS832UH+USGZAyagnzjXzoFB5hkPEc0BbcEsWNXJJ3ACxLKtLX1OPnjov4JNDzO4g//uuKcOZPAa555ZLSb6KZLg8nQdkIyxoE5XZFbZQq3Yq2O4ppnZj+qsdYpqCJcOsvpII/Y/3RECbDKdEuTFhyE8EDnpkldlY5w\u003d\u003d","authorization":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI1MGQ3ZmYxNC1kMDZiLTQ5YzMtODc5MS00M2Q0NGI1Y2E1OWQiLCJpYXQiOjE2MDc0NzgyOTAsImV4cCI6MTYwODA4MzA5MH0.ZXSaM99JgbFRSTi9TsrppXHCKy3X3N1KR-i8S1svkd3C6pdmOU7fwDe01dN0yAaiu8jgUKS_6BtF1SyDdwCKKw","user-agent":"PostmanRuntime/7.26.8","accept":"*/*","postman-token":"f3e1ab0c-022a-49dd-ae3c-3d8b7eff6ffd","host":"103.21.151.131:8415","accept-encoding":"gzip, deflate, br","connection":"keep-alive","cookie":"JSESSIONID\u003dE9587C1BB0EF2A8FE142AF31AB9E37A4"}}
+10-12-2020 13:38:32.128 ERROR c.e.device.bussiness.DeviceBusiness.decryptDeviceToken.146 - deviceToken (header) không ???c tr?ng
+10-12-2020 13:38:32.134 INFO  c.e.d.messaging.rabbitmq.RpcServer.rpcReceive.85 -  [<--] Server returned null
+10-12-2020 13:38:32.140 INFO  c.e.d.messaging.rabbitmq.RpcServer.rpcReceive.36 -  [-->] Server received request for {"requestMethod":"GET","requestPath":"/v1.0/device/decrypt-device-token","headerParam":{"device-token":"iPLZxCJ0Aa079ZU9qXoFK199+tgJSEG2/vNnq6xD9nMoaMHf73fr/23RtUVzYxBGZw4n8CJ0UmyTlc6bUuxlIDWgivK2nhmVaIIzGR92oFtDWPbOwIcnEgwjmpryEN1NALlchrtYHCFFXAGLnMWcPPiRH01kuKMvM0H4ligRykSQNlTiN7gjS832UH+USGZAyagnzjXzoFB5hkPEc0BbcEsWNXJJ3ACxLKtLX1OPnjov4JNDzO4g//uuKcOZPAa555ZLSb6KZLg8nQdkIyxoE5XZFbZQq3Yq2O4ppnZj+qsdYpqCJcOsvpII/Y/3RECbDKdEuTFhyE8EDnpkldlY5w\u003d\u003d","user-agent":"PostmanRuntime/7.26.8","accept":"*/*","postman-token":"1aa80023-19ed-4d5c-b7f1-a2ed3ed96370","host":"103.21.151.131:8415","accept-encoding":"gzip, deflate, br","connection":"keep-alive","cookie":"JSESSIONID\u003dE9587C1BB0EF2A8FE142AF31AB9E37A4"}}
+10-12-2020 13:38:32.157 ERROR c.e.device.bussiness.DeviceBusiness.decryptDeviceToken.146 - deviceToken (header) không ???c tr?ng
+10-12-2020 13:38:32.159 INFO  c.e.d.messaging.rabbitmq.RpcServer.rpcReceive.85 -  [<--] Server returned null
+10-12-2020 13:38:55.326 INFO  c.e.d.messaging.rabbitmq.RpcServer.rpcReceive.36 -  [-->] Server received request for {"requestMethod":"GET","requestPath":"/v1.0/device/decrypt-device-token","headerParam":{"device-token":"iPLZxCJ0Aa079ZU9qXoFK199+tgJSEG2/vNnq6xD9nMoaMHf73fr/23RtUVzYxBGZw4n8CJ0UmyTlc6bUuxlIDWgivK2nhmVaIIzGR92oFtDWPbOwIcnEgwjmpryEN1NALlchrtYHCFFXAGLnMWcPPiRH01kuKMvM0H4ligRykSQNlTiN7gjS832UH+USGZAyagnzjXzoFB5hkPEc0BbcEsWNXJJ3ACxLKtLX1OPnjov4JNDzO4g//uuKcOZPAa555ZLSb6KZLg8nQdkIyxoE5XZFbZQq3Yq2O4ppnZj+qsdYpqCJcOsvpII/Y/3RECbDKdEuTFhyE8EDnpkldlY5w\u003d\u003d","user-agent":"PostmanRuntime/7.26.8","accept":"*/*","postman-token":"37daaf25-e88a-47c4-aae4-f369e4ab6639","host":"103.21.151.131:8415","accept-encoding":"gzip, deflate, br","connection":"keep-alive","cookie":"JSESSIONID\u003dE9587C1BB0EF2A8FE142AF31AB9E37A4"}}
+10-12-2020 13:38:55.328 ERROR c.e.device.bussiness.DeviceBusiness.decryptDeviceToken.146 - deviceToken (header) không ???c tr?ng
+10-12-2020 13:38:55.329 INFO  c.e.d.messaging.rabbitmq.RpcServer.rpcReceive.85 -  [<--] Server returned null
+10-12-2020 13:42:46.020 INFO  c.e.d.messaging.rabbitmq.RpcServer.rpcReceive.36 -  [-->] Server received request for {"requestMethod":"GET","requestPath":"/v1.0/device/decrypt-device-token","headerParam":{"device-token":"iPLZxCJ0Aa079ZU9qXoFK199+tgJSEG2/vNnq6xD9nMoaMHf73fr/23RtUVzYxBGZw4n8CJ0UmyTlc6bUuxlIDWgivK2nhmVaIIzGR92oFtDWPbOwIcnEgwjmpryEN1NALlchrtYHCFFXAGLnMWcPPiRH01kuKMvM0H4ligRykSQNlTiN7gjS832UH+USGZAyagnzjXzoFB5hkPEc0BbcEsWNXJJ3ACxLKtLX1OPnjov4JNDzO4g//uuKcOZPAa555ZLSb6KZLg8nQdkIyxoE5XZFbZQq3Yq2O4ppnZj+qsdYpqCJcOsvpII/Y/3RECbDKdEuTFhyE8EDnpkldlY5w\u003d\u003d","user-agent":"PostmanRuntime/7.26.8","accept":"*/*","postman-token":"2d9face0-0312-41c0-aaa4-5456721da498","host":"103.21.151.131:8415","accept-encoding":"gzip, deflate, br","connection":"keep-alive","cookie":"JSESSIONID\u003dE9587C1BB0EF2A8FE142AF31AB9E37A4"}}
+10-12-2020 13:42:46.032 ERROR c.e.device.bussiness.DeviceBusiness.decryptDeviceToken.146 - deviceToken (header) không ???c tr?ng
+10-12-2020 13:42:46.033 INFO  c.e.d.messaging.rabbitmq.RpcServer.rpcReceive.85 -  [<--] Server returned null
+10-12-2020 13:44:34.894 INFO  c.e.d.messaging.rabbitmq.RpcServer.rpcReceive.36 -  [-->] Server received request for {"requestMethod":"GET","requestPath":"/v1.0/device/decrypt-device-token","headerParam":{"device-token":"iPLZxCJ0Aa079ZU9qXoFK199+tgJSEG2/vNnq6xD9nMoaMHf73fr/23RtUVzYxBGZw4n8CJ0UmyTlc6bUuxlIDWgivK2nhmVaIIzGR92oFtDWPbOwIcnEgwjmpryEN1NALlchrtYHCFFXAGLnMWcPPiRH01kuKMvM0H4ligRykSQNlTiN7gjS832UH+USGZAyagnzjXzoFB5hkPEc0BbcEsWNXJJ3ACxLKtLX1OPnjov4JNDzO4g//uuKcOZPAa555ZLSb6KZLg8nQdkIyxoE5XZFbZQq3Yq2O4ppnZj+qsdYpqCJcOsvpII/Y/3RECbDKdEuTFhyE8EDnpkldlY5w\u003d\u003d","user-agent":"PostmanRuntime/7.26.8","accept":"*/*","postman-token":"f1a346a3-a48e-4483-b71f-98285c4ccc2f","host":"103.21.151.131:8415","accept-encoding":"gzip, deflate, br","connection":"keep-alive","cookie":"JSESSIONID\u003dE9587C1BB0EF2A8FE142AF31AB9E37A4"}}
+10-12-2020 13:44:34.897 ERROR c.e.device.bussiness.DeviceBusiness.decryptDeviceToken.146 - deviceToken (header) không ???c tr?ng
+10-12-2020 13:44:34.898 INFO  c.e.d.messaging.rabbitmq.RpcServer.rpcReceive.85 -  [<--] Server returned null
+10-12-2020 13:47:17.822 INFO  com.elcom.device.MainApplication.logStarting.55 - Starting MainApplication on DESKTOP-2U9UF8V with PID 8748 (E:\1.ELCOM\0.Vitalsign\1.televital-platform\VitalsignDeviceService\target\classes started by Admin in E:\1.ELCOM\0.Vitalsign\1.televital-platform\VitalsignDeviceService)
+10-12-2020 13:47:17.839 INFO  com.elcom.device.MainApplication.logStartupProfileInfo.651 - No active profile set, falling back to default profiles: default
+10-12-2020 13:47:22.987 INFO  c.e.d.messaging.rabbitmq.RpcConfig.initRpcQueue.35 - rpcQueueName: vs_device_rpc_queue
+10-12-2020 13:47:22.991 INFO  c.e.d.messaging.rabbitmq.RpcConfig.rpcExchange.41 - rpcExchangeName: vs_device_rpc_exchange
+10-12-2020 13:47:22.993 INFO  c.e.d.messaging.rabbitmq.RpcConfig.bindingRpc.47 - rpcRoutingKey: vs_device_rpc_key
+10-12-2020 13:47:23.239 ERROR o.s.boot.SpringApplication.reportFailure.826 - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'rpcServer' defined in class path resource [com/elcom/device/messaging/rabbitmq/RpcConfig.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.elcom.device.messaging.rabbitmq.RpcServer] from ClassLoader [sun.misc.Launcher$AppClassLoader@73d16e93]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:572)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:895)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.elcom.device.MainApplication.main(MainApplication.java:15)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.elcom.device.messaging.rabbitmq.RpcServer] from ClassLoader [sun.misc.Launcher$AppClassLoader@73d16e93]
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:734)
+	at org.springframework.util.ReflectionUtils.doWithLocalFields(ReflectionUtils.java:666)
+	at org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor.buildPersistenceMetadata(PersistenceAnnotationBeanPostProcessor.java:428)
+	at org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor.findPersistenceMetadata(PersistenceAnnotationBeanPostProcessor.java:409)
+	at org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor.postProcessMergedBeanDefinition(PersistenceAnnotationBeanPostProcessor.java:336)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyMergedBeanDefinitionPostProcessors(AbstractAutowireCapableBeanFactory.java:1094)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569)
+	... 15 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: Lcom/elcom/device/bussiness/DeviceBusiness;
+	at java.lang.Class.getDeclaredFields0(Native Method)
+	at java.lang.Class.privateGetDeclaredFields(Class.java:2583)
+	at java.lang.Class.getDeclaredFields(Class.java:1916)
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:729)
+	... 21 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.elcom.device.bussiness.DeviceBusiness
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:355)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+	... 25 common frames omitted
+10-12-2020 13:50:13.756 INFO  com.elcom.device.MainApplication.logStarting.55 - Starting MainApplication on DESKTOP-2U9UF8V with PID 11492 (E:\1.ELCOM\0.Vitalsign\1.televital-platform\VitalsignDeviceService\target\classes started by Admin in E:\1.ELCOM\0.Vitalsign\1.televital-platform\VitalsignDeviceService)
+10-12-2020 13:50:13.760 INFO  com.elcom.device.MainApplication.logStartupProfileInfo.651 - No active profile set, falling back to default profiles: default
+10-12-2020 13:50:18.679 INFO  c.e.d.messaging.rabbitmq.RpcConfig.initRpcQueue.35 - rpcQueueName: vs_device_rpc_queue
+10-12-2020 13:50:18.684 INFO  c.e.d.messaging.rabbitmq.RpcConfig.rpcExchange.41 - rpcExchangeName: vs_device_rpc_exchange
+10-12-2020 13:50:18.689 INFO  c.e.d.messaging.rabbitmq.RpcConfig.bindingRpc.47 - rpcRoutingKey: vs_device_rpc_key
+10-12-2020 13:50:18.702 INFO  c.e.d.m.rabbitmq.WorkerConfig.initWorkerQueue.24 - workerQueueName: vs_device_worker_queue
+10-12-2020 13:50:20.293 ERROR o.s.b.d.LoggingFailureAnalysisReporter.report.40 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8169 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8169 or configure this application to listen on another port.
+
+10-12-2020 13:50:40.205 INFO  com.elcom.device.MainApplication.logStarting.55 - Starting MainApplication on DESKTOP-2U9UF8V with PID 1680 (E:\1.ELCOM\0.Vitalsign\1.televital-platform\VitalsignDeviceService\target\classes started by Admin in E:\1.ELCOM\0.Vitalsign\1.televital-platform\VitalsignDeviceService)
+10-12-2020 13:50:40.208 INFO  com.elcom.device.MainApplication.logStartupProfileInfo.651 - No active profile set, falling back to default profiles: default
+10-12-2020 13:50:44.667 INFO  c.e.d.messaging.rabbitmq.RpcConfig.initRpcQueue.35 - rpcQueueName: vs_device_rpc_queue
+10-12-2020 13:50:44.670 INFO  c.e.d.messaging.rabbitmq.RpcConfig.rpcExchange.41 - rpcExchangeName: vs_device_rpc_exchange
+10-12-2020 13:50:44.674 INFO  c.e.d.messaging.rabbitmq.RpcConfig.bindingRpc.47 - rpcRoutingKey: vs_device_rpc_key
+10-12-2020 13:50:44.686 INFO  c.e.d.m.rabbitmq.WorkerConfig.initWorkerQueue.24 - workerQueueName: vs_device_worker_queue
+10-12-2020 13:50:45.664 INFO  com.elcom.device.MainApplication.logStarted.61 - Started MainApplication in 6.088 seconds (JVM running for 6.551)
+10-12-2020 13:51:27.659 INFO  c.e.d.messaging.rabbitmq.RpcServer.rpcReceive.36 -  [-->] Server received request for {"requestMethod":"GET","requestPath":"/v1.0/device/decrypt-device-token","headerParam":{"device-token":"iPLZxCJ0Aa079ZU9qXoFK199+tgJSEG2/vNnq6xD9nMoaMHf73fr/23RtUVzYxBGZw4n8CJ0UmyTlc6bUuxlIDWgivK2nhmVaIIzGR92oFtDWPbOwIcnEgwjmpryEN1NALlchrtYHCFFXAGLnMWcPPiRH01kuKMvM0H4ligRykSQNlTiN7gjS832UH+USGZAyagnzjXzoFB5hkPEc0BbcEsWNXJJ3ACxLKtLX1OPnjov4JNDzO4g//uuKcOZPAa555ZLSb6KZLg8nQdkIyxoE5XZFbZQq3Yq2O4ppnZj+qsdYpqCJcOsvpII/Y/3RECbDKdEuTFhyE8EDnpkldlY5w\u003d\u003d","user-agent":"PostmanRuntime/7.26.8","accept":"*/*","postman-token":"3b8dbf29-213f-443e-bb29-d56f9b2469fc","host":"103.21.151.131:8415","accept-encoding":"gzip, deflate, br","connection":"keep-alive","cookie":"JSESSIONID\u003dE9587C1BB0EF2A8FE142AF31AB9E37A4"}}
+10-12-2020 13:51:28.461 INFO  c.e.d.service.impl.DeviceServiceImpl.decryptDeviceToken.55 - deviceId decrypted: [ELC-G-001]
+10-12-2020 13:51:28.461 INFO  c.e.d.messaging.rabbitmq.RpcServer.rpcReceive.85 -  [<--] Server returned ELC-G-001
+10-12-2020 13:51:46.659 INFO  com.elcom.device.MainApplication.logStarting.55 - Starting MainApplication on DESKTOP-2U9UF8V with PID 12192 (E:\1.ELCOM\0.Vitalsign\1.televital-platform\VitalsignDeviceService\target\classes started by Admin in E:\1.ELCOM\0.Vitalsign\1.televital-platform\VitalsignDeviceService)
+10-12-2020 13:51:46.664 INFO  com.elcom.device.MainApplication.logStartupProfileInfo.651 - No active profile set, falling back to default profiles: default
+10-12-2020 13:51:51.519 INFO  c.e.d.messaging.rabbitmq.RpcConfig.initRpcQueue.35 - rpcQueueName: vs_device_rpc_queue
+10-12-2020 13:51:51.523 INFO  c.e.d.messaging.rabbitmq.RpcConfig.rpcExchange.41 - rpcExchangeName: vs_device_rpc_exchange
+10-12-2020 13:51:51.526 INFO  c.e.d.messaging.rabbitmq.RpcConfig.bindingRpc.47 - rpcRoutingKey: vs_device_rpc_key
+10-12-2020 13:51:51.542 INFO  c.e.d.m.rabbitmq.WorkerConfig.initWorkerQueue.24 - workerQueueName: vs_device_worker_queue
+10-12-2020 13:51:52.699 INFO  com.elcom.device.MainApplication.logStarted.61 - Started MainApplication in 6.78 seconds (JVM running for 7.274)
+10-12-2020 13:52:43.603 INFO  c.e.d.messaging.rabbitmq.RpcServer.rpcReceive.36 -  [-->] Server received request for {"requestMethod":"GET","requestPath":"/v1.0/device/decrypt-device-token","headerParam":{"device-token":"iPLZxCJ0Aa079ZU9qXoFK199+tgJSEG2/vNnq6xD9nMoaMHf73fr/23RtUVzYxBGZw4n8CJ0UmyTlc6bUuxlIDWgivK2nhmVaIIzGR92oFtDWPbOwIcnEgwjmpryEN1NALlchrtYHCFFXAGLnMWcPPiRH01kuKMvM0H4ligRykSQNlTiN7gjS832UH+USGZAyagnzjXzoFB5hkPEc0BbcEsWNXJJ3ACxLKtLX1OPnjov4JNDzO4g//uuKcOZPAa555ZLSb6KZLg8nQdkIyxoE5XZFbZQq3Yq2O4ppnZj+qsdYpqCJcOsvpII/Y/3RECbDKdEuTFhyE8EDnpkldlY5w\u003d\u003d","authorization":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI1MGQ3ZmYxNC1kMDZiLTQ5YzMtODc5MS00M2Q0NGI1Y2E1OWQiLCJpYXQiOjE2MDc1MDUzNDksImV4cCI6MTYwODExMDE0OX0.aBYoirJsRhNtV6ANKSnpJ6Tl0IosEm-AIN0cGNkgCA7rl3TkgppEHCg04IDPm4bRSLYjPvxdXh76fNUq7D-moQ","user-agent":"PostmanRuntime/7.26.8","accept":"*/*","postman-token":"d41c14ef-da39-4b45-b083-8af02f5e24d0","host":"103.21.151.131:8415","accept-encoding":"gzip, deflate, br","connection":"keep-alive","cookie":"JSESSIONID\u003dE9587C1BB0EF2A8FE142AF31AB9E37A4"}}
+10-12-2020 13:52:43.986 INFO  c.e.d.service.impl.DeviceServiceImpl.decryptDeviceToken.55 - deviceId decrypted: [ELC-G-001]
+10-12-2020 13:52:43.987 INFO  c.e.d.messaging.rabbitmq.RpcServer.rpcReceive.85 -  [<--] Server returned ELC-G-001
+10-12-2020 14:18:59.842 INFO  c.e.d.messaging.rabbitmq.RpcServer.rpcReceive.36 -  [-->] Server received request for {"requestMethod":"GET","requestPath":"/v1.0/device/decrypt-device-token","headerParam":{"device-token":"iPLZxCJ0Aa079ZU9qXoFK199+tgJSEG2/vNnq6xD9nMoaMHf73fr/23RtUVzYxBGZw4n8CJ0UmyTlc6bUuxlIDWgivK2nhmVaIIzGR92oFtDWPbOwIcnEgwjmpryEN1NALlchrtYHCFFXAGLnMWcPPiRH01kuKMvM0H4ligRykSQNlTiN7gjS832UH+USGZAyagnzjXzoFB5hkPEc0BbcEsWNXJJ3ACxLKtLX1OPnjov4JNDzO4g//uuKcOZPAa555ZLSb6KZLg8nQdkIyxoE5XZFbZQq3Yq2O4ppnZj+qsdYpqCJcOsvpII/Y/3RECbDKdEuTFhyE8EDnpkldlY5w\u003d\u003d","content-type":"application/json","user-agent":"PostmanRuntime/7.26.8","accept":"*/*","postman-token":"8f9c16f1-15ee-4e98-8222-b46def065bad","host":"103.21.151.131:8415","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"190","cookie":"JSESSIONID\u003dE9587C1BB0EF2A8FE142AF31AB9E37A4"}}
+10-12-2020 14:18:59.856 INFO  c.e.d.service.impl.DeviceServiceImpl.decryptDeviceToken.55 - deviceId decrypted: [ELC-G-001]
+10-12-2020 14:18:59.857 INFO  c.e.d.messaging.rabbitmq.RpcServer.rpcReceive.85 -  [<--] Server returned ELC-G-001

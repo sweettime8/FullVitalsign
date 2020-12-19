@@ -1,0 +1,39 @@
+[
+    {
+        "path": "/device/gate/update-patient-profile-id",
+        "method": "PUT",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/device/get-device-by-bu-id",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/device/get-detail-device",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/device/count-gate-by-ha-id",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/device/add-device-for-customer",
+        "method": "POST",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/device/remove-device-of-customer",
+        "method": "DELETE",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/device/find-device-for-add-customer",
+        "method": "GET",
+        "rabbit": "rpc"
+    }
+
+]
+

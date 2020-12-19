@@ -1,0 +1,171 @@
+16-11-2020 08:23:29.102 INFO  c.e.v.VitalsignProjectServicesApplication.logStarting - Starting VitalsignProjectServicesApplication on MSI with PID 384 (E:\6.Project_elcom\ProjectVitalSign\target\classes started by admin in E:\6.Project_elcom\ProjectVitalSign)
+16-11-2020 08:23:29.111 INFO  c.e.v.VitalsignProjectServicesApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+16-11-2020 08:23:32.272 INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+16-11-2020 08:23:32.357 INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 5.4.15.Final
+16-11-2020 08:23:32.723 INFO  o.h.annotations.common.Version.<clinit> - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+16-11-2020 08:23:32.938 INFO  org.hibernate.dialect.Dialect.<init> - HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+16-11-2020 08:23:33.648 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16-11-2020 08:23:34.955 INFO  c.e.v.VitalsignProjectServicesApplication.logStarted - Started VitalsignProjectServicesApplication in 6.747 seconds (JVM running for 7.433)
+16-11-2020 08:24:16.530 INFO  c.e.v.VitalsignProjectServicesApplication.logStarting - Starting VitalsignProjectServicesApplication on MSI with PID 13736 (E:\6.Project_elcom\ProjectVitalSign\target\classes started by admin in E:\6.Project_elcom\ProjectVitalSign)
+16-11-2020 08:24:16.534 INFO  c.e.v.VitalsignProjectServicesApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+16-11-2020 08:24:18.570 INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+16-11-2020 08:24:18.595 INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 5.4.15.Final
+16-11-2020 08:24:18.689 INFO  o.h.annotations.common.Version.<clinit> - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+16-11-2020 08:24:18.819 INFO  org.hibernate.dialect.Dialect.<init> - HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+16-11-2020 08:24:19.357 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16-11-2020 08:24:20.130 INFO  c.e.v.VitalsignProjectServicesApplication.logStarted - Started VitalsignProjectServicesApplication in 4.093 seconds (JVM running for 4.651)
+16-11-2020 08:25:07.948 INFO  c.e.v.VitalsignProjectServicesApplication.logStarting - Starting VitalsignProjectServicesApplication on MSI with PID 11916 (E:\6.Project_elcom\ProjectVitalSign\target\classes started by admin in E:\6.Project_elcom\ProjectVitalSign)
+16-11-2020 08:25:07.951 INFO  c.e.v.VitalsignProjectServicesApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+16-11-2020 08:25:10.014 INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+16-11-2020 08:25:10.037 INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 5.4.15.Final
+16-11-2020 08:25:10.151 INFO  o.h.annotations.common.Version.<clinit> - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+16-11-2020 08:25:10.282 INFO  org.hibernate.dialect.Dialect.<init> - HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+16-11-2020 08:25:10.876 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16-11-2020 08:25:11.748 INFO  c.e.v.VitalsignProjectServicesApplication.logStarted - Started VitalsignProjectServicesApplication in 4.199 seconds (JVM running for 4.754)
+16-11-2020 08:29:03.899 INFO  c.e.v.VitalsignProjectServicesApplication.logStarting - Starting VitalsignProjectServicesApplication on MSI with PID 12004 (E:\6.Project_elcom\ProjectVitalSign\target\classes started by admin in E:\6.Project_elcom\ProjectVitalSign)
+16-11-2020 08:29:03.902 INFO  c.e.v.VitalsignProjectServicesApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+16-11-2020 08:29:05.827 INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+16-11-2020 08:29:05.844 INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 5.4.15.Final
+16-11-2020 08:29:06.005 INFO  o.h.annotations.common.Version.<clinit> - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+16-11-2020 08:29:06.069 INFO  org.hibernate.dialect.Dialect.<init> - HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+16-11-2020 08:29:06.654 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16-11-2020 08:29:07.508 INFO  c.e.v.VitalsignProjectServicesApplication.logStarted - Started VitalsignProjectServicesApplication in 3.973 seconds (JVM running for 4.352)
+16-11-2020 08:30:06.098 INFO  c.e.v.VitalsignProjectServicesApplication.logStarting - Starting VitalsignProjectServicesApplication on MSI with PID 14832 (E:\6.Project_elcom\ProjectVitalSign\target\classes started by admin in E:\6.Project_elcom\ProjectVitalSign)
+16-11-2020 08:30:06.099 INFO  c.e.v.VitalsignProjectServicesApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+16-11-2020 08:30:08.101 INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+16-11-2020 08:30:08.118 INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 5.4.15.Final
+16-11-2020 08:30:08.192 INFO  o.h.annotations.common.Version.<clinit> - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+16-11-2020 08:30:08.340 INFO  org.hibernate.dialect.Dialect.<init> - HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+16-11-2020 08:30:09.032 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16-11-2020 08:30:09.971 INFO  c.e.v.VitalsignProjectServicesApplication.logStarted - Started VitalsignProjectServicesApplication in 4.339 seconds (JVM running for 4.719)
+16-11-2020 16:53:00.599 INFO  c.e.v.VitalsignProjectServicesApplicationTests.logStarting - Starting VitalsignProjectServicesApplicationTests on MSI with PID 16616 (started by admin in E:\6.Project_elcom\VitalSign\ProjectVitalSign)
+16-11-2020 16:53:00.599 INFO  c.e.v.VitalsignProjectServicesApplicationTests.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+16-11-2020 16:53:02.102 INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+16-11-2020 16:53:02.165 INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 5.4.15.Final
+16-11-2020 16:53:02.318 INFO  o.h.annotations.common.Version.<clinit> - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+16-11-2020 16:53:02.597 INFO  org.hibernate.dialect.Dialect.<init> - HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+16-11-2020 16:53:03.187 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16-11-2020 16:53:05.074 INFO  c.e.v.VitalsignProjectServicesApplicationTests.logStarted - Started VitalsignProjectServicesApplicationTests in 4.748 seconds (JVM running for 5.605)
+16-11-2020 17:02:07.434 INFO  c.e.v.VitalsignProjectServicesApplication.logStarting - Starting VitalsignProjectServicesApplication on MSI with PID 14948 (E:\6.Project_elcom\VitalSign\ProjectVitalSign\target\classes started by admin in E:\6.Project_elcom\VitalSign\ProjectVitalSign)
+16-11-2020 17:02:07.434 INFO  c.e.v.VitalsignProjectServicesApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+16-11-2020 17:02:08.615 INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+16-11-2020 17:02:08.637 INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 5.4.15.Final
+16-11-2020 17:02:08.700 INFO  o.h.annotations.common.Version.<clinit> - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+16-11-2020 17:02:08.800 INFO  org.hibernate.dialect.Dialect.<init> - HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+16-11-2020 17:02:09.202 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16-11-2020 17:02:09.856 INFO  c.e.v.VitalsignProjectServicesApplication.logStarted - Started VitalsignProjectServicesApplication in 2.777 seconds (JVM running for 3.092)
+16-11-2020 17:02:09.856 INFO  c.e.v.mqtt.MqttSubscriberInitApp.subscribersByDisplay - [ subscribersByDisplay topic ]
+16-11-2020 17:02:09.856 INFO  c.e.v.mqtt.MqttSubscriberInitForData.subscribersData - [ subscribersByDisplay topic ]
+16-11-2020 17:02:10.470 INFO  c.e.v.mqtt.MqttSubscriberInitApp.subscribersByDisplay - [DISPLAY_REQ_GATE_SENSOR_4eb2459ae05f004c] subscribe topic [DISPLAY_REQ_GATE_SENSOR_4eb2459ae05f004c] SUCCESS!
+16-11-2020 17:02:10.470 INFO  c.e.v.mqtt.MqttSubscriberInitForData.subscribersData - [VITALSIGN-TOPIC-DATA-SPO2-WAVE_4eb2459ae05f004c] subscribe topic [VITALSIGN-TOPIC-DATA-SPO2-WAVE_4eb2459ae05f004c] SUCCESS!
+16-11-2020 17:02:10.510 INFO  c.e.v.mqtt.MqttSubscriberInitApp.subscribersByDisplay - [DISPLAY_UNLINK_GATE_REQ_4eb2459ae05f004c] subscribe topic [DISPLAY_UNLINK_GATE_REQ_4eb2459ae05f004c] SUCCESS!
+16-11-2020 17:02:10.510 INFO  c.e.v.mqtt.MqttSubscriberInitForData.subscribersData - [VITALSIGN-TOPIC-DATA-SPO2-WAVE_4eb2459ae05f004f] subscribe topic [VITALSIGN-TOPIC-DATA-SPO2-WAVE_4eb2459ae05f004f] SUCCESS!
+16-11-2020 17:02:12.423 INFO  c.e.v.mqtt.MqttSubscriberInitForData.subscribersData - [VITALSIGN-TOPIC-DATA-SPO2-WAVE_ELC-DL-001-00000000649au198] subscribe topic [VITALSIGN-TOPIC-DATA-SPO2-WAVE_ELC-DL-001-00000000649au198] SUCCESS!
+16-11-2020 17:02:12.423 INFO  c.e.v.mqtt.MqttSubscriberInitApp.subscribersByDisplay - [GET_PATIENT_LIST_4eb2459ae05f004c] subscribe topic [GET_PATIENT_LIST_4eb2459ae05f004c] SUCCESS!
+16-11-2020 17:02:13.709 INFO  c.e.v.mqtt.MqttSubscriberInitApp.subscribersByDisplay - [DISPLAY_LINK_GATE_REQ_4eb2459ae05f004c] subscribe topic [DISPLAY_LINK_GATE_REQ_4eb2459ae05f004c] SUCCESS!
+16-11-2020 17:02:13.727 INFO  c.e.v.mqtt.MqttSubscriberInitForData.subscribersData - [VITALSIGN-TOPIC-DATA-SPO2-WAVE_25f97b784dc3780a] subscribe topic [VITALSIGN-TOPIC-DATA-SPO2-WAVE_25f97b784dc3780a] SUCCESS!
+16-11-2020 17:02:13.928 INFO  c.e.v.mqtt.MqttSubscriberInitApp.subscribersByDisplay - [RES_CONNECT_TO_SENSOR_4eb2459ae05f004c] subscribe topic [RES_CONNECT_TO_SENSOR_4eb2459ae05f004c] SUCCESS!
+16-11-2020 17:02:13.959 INFO  c.e.v.mqtt.MqttSubscriberInitApp.subscribersByDisplay - [RES_DISCONNECT_TO_SENSOR_4eb2459ae05f004c] subscribe topic [RES_DISCONNECT_TO_SENSOR_4eb2459ae05f004c] SUCCESS!
+16-11-2020 17:02:13.990 INFO  c.e.v.mqtt.MqttSubscriberInitApp.subscribersByDisplay - [DISPLAY_REQ_GATE_SENSOR_4eb2459ae05f004f] subscribe topic [DISPLAY_REQ_GATE_SENSOR_4eb2459ae05f004f] SUCCESS!
+16-11-2020 17:02:14.006 INFO  c.e.v.mqtt.MqttSubscriberInitApp.messageArrived - [messageArrived topic]: RES_CONNECT_TO_SENSOR_4eb2459ae05f004c
+16-11-2020 17:02:14.006 INFO  c.e.v.mqtt.MqttSubscriberInitApp.messageArrived - Message received:
+	{"gate_id": "ELCGW-001-00000000649af264","display_id": "4eb2459ae05f004c","sensor_id": "bcbf91bd-c648-46fd-8bac-a0ee0b71d33f", "result_code":0}
+16-11-2020 17:02:14.006 INFO  c.e.v.process.MqttConsumerInitApp.run - Consummer - [RES_CONNECT_TO_SENSOR] : {"gate_id": "ELCGW-001-00000000649af264","display_id": "4eb2459ae05f004c","sensor_id": "bcbf91bd-c648-46fd-8bac-a0ee0b71d33f", "result_code":0}
+16-11-2020 17:02:14.006 INFO  c.e.v.mqtt.MqttSubscriberInitApp.messageArrived - [messageArrived topic]: RES_DISCONNECT_TO_SENSOR_4eb2459ae05f004c
+16-11-2020 17:02:14.006 INFO  c.e.v.mqtt.MqttSubscriberInitApp.messageArrived - Message received:
+	{"gate_id": "ELCGW-001-00000000649af264","display_id": "4eb2459ae05f004c","sensor_id": "bcbf91bd-c648-46fd-8bac-a0ee0b71d33g", "result_code":0}
+16-11-2020 17:02:14.021 INFO  c.e.v.mqtt.MqttSubscriberInitApp.subscribersByDisplay - [DISPLAY_UNLINK_GATE_REQ_4eb2459ae05f004f] subscribe topic [DISPLAY_UNLINK_GATE_REQ_4eb2459ae05f004f] SUCCESS!
+16-11-2020 17:02:14.043 INFO  c.e.v.process.MqttConsumerInitApp.run - Consummer - [RES_DISCONNECT_TO_SENSOR] : {"gate_id": "ELCGW-001-00000000649af264","display_id": "4eb2459ae05f004c","sensor_id": "bcbf91bd-c648-46fd-8bac-a0ee0b71d33g", "result_code":0}
+16-11-2020 17:02:14.043 INFO  c.e.v.mqtt.MqttSubscriberInitApp.subscribersByDisplay - [GET_PATIENT_LIST_4eb2459ae05f004f] subscribe topic [GET_PATIENT_LIST_4eb2459ae05f004f] SUCCESS!
+16-11-2020 17:02:14.075 INFO  c.e.v.mqtt.MqttSubscriberInitApp.subscribersByDisplay - [DISPLAY_LINK_GATE_REQ_4eb2459ae05f004f] subscribe topic [DISPLAY_LINK_GATE_REQ_4eb2459ae05f004f] SUCCESS!
+16-11-2020 17:02:14.123 INFO  c.e.v.mqtt.MqttSubscriberInitApp.subscribersByDisplay - [RES_CONNECT_TO_SENSOR_4eb2459ae05f004f] subscribe topic [RES_CONNECT_TO_SENSOR_4eb2459ae05f004f] SUCCESS!
+16-11-2020 17:02:14.143 INFO  c.e.v.mqtt.MqttSubscriberInitApp.subscribersByDisplay - [RES_DISCONNECT_TO_SENSOR_4eb2459ae05f004f] subscribe topic [RES_DISCONNECT_TO_SENSOR_4eb2459ae05f004f] SUCCESS!
+16-11-2020 17:02:14.175 INFO  c.e.v.mqtt.MqttSubscriberInitApp.subscribersByDisplay - [DISPLAY_REQ_GATE_SENSOR_ELC-DL-001-00000000649au198] subscribe topic [DISPLAY_REQ_GATE_SENSOR_ELC-DL-001-00000000649au198] SUCCESS!
+16-11-2020 17:02:14.206 INFO  c.e.v.mqtt.MqttSubscriberInitApp.subscribersByDisplay - [DISPLAY_UNLINK_GATE_REQ_ELC-DL-001-00000000649au198] subscribe topic [DISPLAY_UNLINK_GATE_REQ_ELC-DL-001-00000000649au198] SUCCESS!
+16-11-2020 17:02:14.228 INFO  c.e.v.mqtt.MqttSubscriberInitApp.subscribersByDisplay - [GET_PATIENT_LIST_ELC-DL-001-00000000649au198] subscribe topic [GET_PATIENT_LIST_ELC-DL-001-00000000649au198] SUCCESS!
+16-11-2020 17:02:14.259 INFO  c.e.v.mqtt.MqttSubscriberInitApp.subscribersByDisplay - [DISPLAY_LINK_GATE_REQ_ELC-DL-001-00000000649au198] subscribe topic [DISPLAY_LINK_GATE_REQ_ELC-DL-001-00000000649au198] SUCCESS!
+16-11-2020 17:02:14.306 INFO  c.e.v.mqtt.MqttSubscriberInitApp.subscribersByDisplay - [RES_CONNECT_TO_SENSOR_ELC-DL-001-00000000649au198] subscribe topic [RES_CONNECT_TO_SENSOR_ELC-DL-001-00000000649au198] SUCCESS!
+16-11-2020 17:02:14.675 INFO  c.e.v.mqtt.MqttSubscriberInitApp.subscribersByDisplay - [RES_DISCONNECT_TO_SENSOR_ELC-DL-001-00000000649au198] subscribe topic [RES_DISCONNECT_TO_SENSOR_ELC-DL-001-00000000649au198] SUCCESS!
+16-11-2020 17:02:14.845 INFO  c.e.v.mqtt.MqttSubscriberInitApp.subscribersByDisplay - [DISPLAY_REQ_GATE_SENSOR_25f97b784dc3780a] subscribe topic [DISPLAY_REQ_GATE_SENSOR_25f97b784dc3780a] SUCCESS!
+16-11-2020 17:02:15.030 INFO  c.e.v.mqtt.MqttSubscriberInitApp.subscribersByDisplay - [DISPLAY_UNLINK_GATE_REQ_25f97b784dc3780a] subscribe topic [DISPLAY_UNLINK_GATE_REQ_25f97b784dc3780a] SUCCESS!
+16-11-2020 17:02:15.177 INFO  c.e.v.mqtt.MqttSubscriberInitApp.subscribersByDisplay - [GET_PATIENT_LIST_25f97b784dc3780a] subscribe topic [GET_PATIENT_LIST_25f97b784dc3780a] SUCCESS!
+16-11-2020 17:02:15.193 INFO  c.e.v.mqtt.MqttSubscriberInitApp.subscribersByDisplay - [DISPLAY_LINK_GATE_REQ_25f97b784dc3780a] subscribe topic [DISPLAY_LINK_GATE_REQ_25f97b784dc3780a] SUCCESS!
+16-11-2020 17:02:15.246 INFO  c.e.v.mqtt.MqttSubscriberInitApp.subscribersByDisplay - [RES_CONNECT_TO_SENSOR_25f97b784dc3780a] subscribe topic [RES_CONNECT_TO_SENSOR_25f97b784dc3780a] SUCCESS!
+16-11-2020 17:02:15.262 INFO  c.e.v.mqtt.MqttSubscriberInitApp.subscribersByDisplay - [RES_DISCONNECT_TO_SENSOR_25f97b784dc3780a] subscribe topic [RES_DISCONNECT_TO_SENSOR_25f97b784dc3780a] SUCCESS!
+16-11-2020 17:02:15.262 INFO  c.e.v.mqtt.MqttSubscriberInitApp.subscribersByGate - [subscribersByGate topic ]
+16-11-2020 17:02:15.293 INFO  c.e.v.mqtt.MqttSubscriberInitApp.subscribersByGate - [GATE_REQ_DISPLAY_SENSOR_ELCGW-001-000000006bcbd964] subscribe topic [GATE_REQ_DISPLAY_SENSOR_ELCGW-001-000000006bcbd964] SUCCESS!
+16-11-2020 17:02:15.309 INFO  c.e.v.mqtt.MqttSubscriberInitApp.messageArrived - [messageArrived topic]: RES_CONNECT_TO_SENSOR_25f97b784dc3780a
+16-11-2020 17:02:15.309 INFO  c.e.v.mqtt.MqttSubscriberInitApp.messageArrived - Message received:
+	{"gate_id": "ELCGW-001-000000006bcbd964","display_id": "25f97b784dc3780a","sensor_id": "bcbf91bd-c648-46fd-8bac-a0ee0b71d33f", "result_code":0}
+16-11-2020 17:02:15.309 INFO  c.e.v.process.MqttConsumerInitApp.run - Consummer - [RES_CONNECT_TO_SENSOR] : {"gate_id": "ELCGW-001-000000006bcbd964","display_id": "25f97b784dc3780a","sensor_id": "bcbf91bd-c648-46fd-8bac-a0ee0b71d33f", "result_code":0}
+16-11-2020 17:02:15.309 INFO  c.e.v.mqtt.MqttSubscriberInitApp.messageArrived - [messageArrived topic]: RES_DISCONNECT_TO_SENSOR_25f97b784dc3780a
+16-11-2020 17:02:15.309 INFO  c.e.v.mqtt.MqttSubscriberInitApp.messageArrived - Message received:
+	{"gate_id": "ELCGW-001-000000006bcbd964","display_id": "25f97b784dc3780a","sensor_id": "bcbf91bd-c648-46fd-8bac-a0ee0b71d33f", "result_code":0}
+16-11-2020 17:02:15.309 INFO  c.e.v.mqtt.MqttSubscriberInitApp.subscribersByGate - [GATE_REQ_DISPLAY_SENSOR_ELCGW-001-00000000649af265] subscribe topic [GATE_REQ_DISPLAY_SENSOR_ELCGW-001-00000000649af265] SUCCESS!
+16-11-2020 17:02:15.331 INFO  c.e.v.mqtt.MqttSubscriberInitApp.subscribersByGate - [GATE_REQ_DISPLAY_SENSOR_ELCGW-001-00000000649af266] subscribe topic [GATE_REQ_DISPLAY_SENSOR_ELCGW-001-00000000649af266] SUCCESS!
+16-11-2020 17:02:15.346 INFO  c.e.v.mqtt.MqttSubscriberInitApp.subscribersByGate - [GATE_REQ_DISPLAY_SENSOR_ELCGW-001-00000000649af267] subscribe topic [GATE_REQ_DISPLAY_SENSOR_ELCGW-001-00000000649af267] SUCCESS!
+16-11-2020 17:02:15.346 INFO  c.e.v.mqtt.MqttSubscriberInitApp.subscribersGateDemo - [subscribersByGate topic ]
+16-11-2020 17:02:15.362 INFO  c.e.v.process.MqttConsumerInitApp.run - Consummer - [RES_DISCONNECT_TO_SENSOR] : {"gate_id": "ELCGW-001-000000006bcbd964","display_id": "25f97b784dc3780a","sensor_id": "bcbf91bd-c648-46fd-8bac-a0ee0b71d33f", "result_code":0}
+16-11-2020 17:02:15.378 INFO  c.e.v.mqtt.MqttSubscriberInitApp.subscribersGateDemo - [GATE/SERVER/ADD_SENSOR_REQ/#] subscribe topic [GATE/SERVER/ADD_SENSOR_REQ/#] SUCCESS!
+16-11-2020 17:02:15.378 INFO  c.e.v.mqtt.MqttSubscriberInitApp.subscribersDisplayDemo - [subscribersByDisplay topic ]
+16-11-2020 17:02:15.393 INFO  c.e.v.mqtt.MqttSubscriberInitApp.subscribersDisplayDemo - [DISPLAY/SERVER/SEARCH_GATE_REQ/#] subscribe topic [DISPLAY/SERVER/SEARCH_GATE_REQ/#] SUCCESS!
+16-11-2020 17:02:15.425 INFO  c.e.v.mqtt.MqttSubscriberInitApp.subscribersDisplayDemo - [DISPLAY/SERVER/GET_GATE_SENSOR_LINKED_REQ/#] subscribe topic [DISPLAY/SERVER/GET_GATE_SENSOR_LINKED_REQ/#] SUCCESS!
+16-11-2020 17:14:32.992 INFO  c.e.v.VitalsignProjectServicesApplication.logStarting - Starting VitalsignProjectServicesApplication on MSI with PID 3148 (E:\6.Project_elcom\VitalSign\ProjectVitalSign\target\classes started by admin in E:\6.Project_elcom\VitalSign\ProjectVitalSign)
+16-11-2020 17:14:33.000 INFO  c.e.v.VitalsignProjectServicesApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+16-11-2020 17:14:34.195 INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+16-11-2020 17:14:34.217 INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 5.4.15.Final
+16-11-2020 17:14:34.302 INFO  o.h.annotations.common.Version.<clinit> - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+16-11-2020 17:14:34.418 INFO  org.hibernate.dialect.Dialect.<init> - HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+16-11-2020 17:14:34.819 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16-11-2020 17:14:35.467 INFO  c.e.v.VitalsignProjectServicesApplication.logStarted - Started VitalsignProjectServicesApplication in 2.795 seconds (JVM running for 3.111)
+16-11-2020 17:14:35.483 INFO  c.e.v.mqtt.MqttSubscriberInitApp.subscribersByDisplay - [ subscribersByDisplay topic ]
+16-11-2020 17:14:35.809 INFO  c.e.v.mqtt.MqttSubscriberInitApp.subscribersByDisplay - [DISPLAY_REQ_GATE_SENSOR_4eb2459ae05f004c] subscribe topic [DISPLAY_REQ_GATE_SENSOR_4eb2459ae05f004c] SUCCESS!
+16-11-2020 17:14:35.822 INFO  c.e.v.mqtt.MqttSubscriberInitApp.subscribersByDisplay - [DISPLAY_UNLINK_GATE_REQ_4eb2459ae05f004c] subscribe topic [DISPLAY_UNLINK_GATE_REQ_4eb2459ae05f004c] SUCCESS!
+16-11-2020 17:14:35.832 INFO  c.e.v.mqtt.MqttSubscriberInitApp.subscribersByDisplay - [GET_PATIENT_LIST_4eb2459ae05f004c] subscribe topic [GET_PATIENT_LIST_4eb2459ae05f004c] SUCCESS!
+16-11-2020 17:14:35.852 INFO  c.e.v.mqtt.MqttSubscriberInitApp.subscribersByDisplay - [DISPLAY_LINK_GATE_REQ_4eb2459ae05f004c] subscribe topic [DISPLAY_LINK_GATE_REQ_4eb2459ae05f004c] SUCCESS!
+16-11-2020 17:14:35.862 INFO  c.e.v.mqtt.MqttSubscriberInitApp.subscribersByDisplay - [RES_CONNECT_TO_SENSOR_4eb2459ae05f004c] subscribe topic [RES_CONNECT_TO_SENSOR_4eb2459ae05f004c] SUCCESS!
+16-11-2020 17:14:35.873 INFO  c.e.v.mqtt.MqttSubscriberInitApp.subscribersByDisplay - [RES_DISCONNECT_TO_SENSOR_4eb2459ae05f004c] subscribe topic [RES_DISCONNECT_TO_SENSOR_4eb2459ae05f004c] SUCCESS!
+16-11-2020 17:14:35.891 INFO  c.e.v.mqtt.MqttSubscriberInitApp.subscribersByDisplay - [DISPLAY_REQ_GATE_SENSOR_4eb2459ae05f004f] subscribe topic [DISPLAY_REQ_GATE_SENSOR_4eb2459ae05f004f] SUCCESS!
+16-11-2020 17:14:35.903 INFO  c.e.v.mqtt.MqttSubscriberInitApp.subscribersByDisplay - [DISPLAY_UNLINK_GATE_REQ_4eb2459ae05f004f] subscribe topic [DISPLAY_UNLINK_GATE_REQ_4eb2459ae05f004f] SUCCESS!
+16-11-2020 17:14:35.922 INFO  c.e.v.mqtt.MqttSubscriberInitApp.subscribersByDisplay - [GET_PATIENT_LIST_4eb2459ae05f004f] subscribe topic [GET_PATIENT_LIST_4eb2459ae05f004f] SUCCESS!
+16-11-2020 17:14:35.924 INFO  c.e.v.mqtt.MqttSubscriberInitApp.messageArrived - [messageArrived topic]: RES_DISCONNECT_TO_SENSOR_4eb2459ae05f004c
+16-11-2020 17:14:35.924 INFO  c.e.v.mqtt.MqttSubscriberInitApp.messageArrived - [messageArrived topic]: RES_CONNECT_TO_SENSOR_4eb2459ae05f004c
+16-11-2020 17:14:35.924 INFO  c.e.v.mqtt.MqttSubscriberInitApp.messageArrived - Message received:
+	{"gate_id": "ELCGW-001-00000000649af264","display_id": "4eb2459ae05f004c","sensor_id": "bcbf91bd-c648-46fd-8bac-a0ee0b71d33f", "result_code":0}
+16-11-2020 17:14:35.924 INFO  c.e.v.mqtt.MqttSubscriberInitApp.messageArrived - Message received:
+	{"gate_id": "ELCGW-001-00000000649af264","display_id": "4eb2459ae05f004c","sensor_id": "bcbf91bd-c648-46fd-8bac-a0ee0b71d33g", "result_code":0}
+16-11-2020 17:14:35.924 INFO  c.e.v.process.MqttConsumerInitApp.run - Consummer - [RES_CONNECT_TO_SENSOR] : {"gate_id": "ELCGW-001-00000000649af264","display_id": "4eb2459ae05f004c","sensor_id": "bcbf91bd-c648-46fd-8bac-a0ee0b71d33f", "result_code":0}
+16-11-2020 17:14:35.934 INFO  c.e.v.mqtt.MqttSubscriberInitApp.subscribersByDisplay - [DISPLAY_LINK_GATE_REQ_4eb2459ae05f004f] subscribe topic [DISPLAY_LINK_GATE_REQ_4eb2459ae05f004f] SUCCESS!
+16-11-2020 17:14:35.942 INFO  c.e.v.process.MqttConsumerInitApp.run - Consummer - [RES_DISCONNECT_TO_SENSOR] : {"gate_id": "ELCGW-001-00000000649af264","display_id": "4eb2459ae05f004c","sensor_id": "bcbf91bd-c648-46fd-8bac-a0ee0b71d33g", "result_code":0}
+16-11-2020 17:14:35.942 INFO  c.e.v.mqtt.MqttSubscriberInitApp.subscribersByDisplay - [RES_CONNECT_TO_SENSOR_4eb2459ae05f004f] subscribe topic [RES_CONNECT_TO_SENSOR_4eb2459ae05f004f] SUCCESS!
+16-11-2020 17:14:35.952 INFO  c.e.v.mqtt.MqttSubscriberInitApp.subscribersByDisplay - [RES_DISCONNECT_TO_SENSOR_4eb2459ae05f004f] subscribe topic [RES_DISCONNECT_TO_SENSOR_4eb2459ae05f004f] SUCCESS!
+16-11-2020 17:14:35.968 INFO  c.e.v.mqtt.MqttSubscriberInitApp.subscribersByDisplay - [DISPLAY_REQ_GATE_SENSOR_ELC-DL-001-00000000649au198] subscribe topic [DISPLAY_REQ_GATE_SENSOR_ELC-DL-001-00000000649au198] SUCCESS!
+16-11-2020 17:14:35.983 INFO  c.e.v.mqtt.MqttSubscriberInitApp.subscribersByDisplay - [DISPLAY_UNLINK_GATE_REQ_ELC-DL-001-00000000649au198] subscribe topic [DISPLAY_UNLINK_GATE_REQ_ELC-DL-001-00000000649au198] SUCCESS!
+16-11-2020 17:14:35.999 INFO  c.e.v.mqtt.MqttSubscriberInitApp.subscribersByDisplay - [GET_PATIENT_LIST_ELC-DL-001-00000000649au198] subscribe topic [GET_PATIENT_LIST_ELC-DL-001-00000000649au198] SUCCESS!
+16-11-2020 17:14:36.014 INFO  c.e.v.mqtt.MqttSubscriberInitApp.subscribersByDisplay - [DISPLAY_LINK_GATE_REQ_ELC-DL-001-00000000649au198] subscribe topic [DISPLAY_LINK_GATE_REQ_ELC-DL-001-00000000649au198] SUCCESS!
+16-11-2020 17:14:36.030 INFO  c.e.v.mqtt.MqttSubscriberInitApp.subscribersByDisplay - [RES_CONNECT_TO_SENSOR_ELC-DL-001-00000000649au198] subscribe topic [RES_CONNECT_TO_SENSOR_ELC-DL-001-00000000649au198] SUCCESS!
+16-11-2020 17:14:36.115 INFO  c.e.v.mqtt.MqttSubscriberInitApp.subscribersByDisplay - [RES_DISCONNECT_TO_SENSOR_ELC-DL-001-00000000649au198] subscribe topic [RES_DISCONNECT_TO_SENSOR_ELC-DL-001-00000000649au198] SUCCESS!
+16-11-2020 17:14:36.134 INFO  c.e.v.mqtt.MqttSubscriberInitApp.subscribersByDisplay - [DISPLAY_REQ_GATE_SENSOR_25f97b784dc3780a] subscribe topic [DISPLAY_REQ_GATE_SENSOR_25f97b784dc3780a] SUCCESS!
+16-11-2020 17:14:36.147 INFO  c.e.v.mqtt.MqttSubscriberInitApp.subscribersByDisplay - [DISPLAY_UNLINK_GATE_REQ_25f97b784dc3780a] subscribe topic [DISPLAY_UNLINK_GATE_REQ_25f97b784dc3780a] SUCCESS!
+16-11-2020 17:14:36.156 INFO  c.e.v.mqtt.MqttSubscriberInitApp.subscribersByDisplay - [GET_PATIENT_LIST_25f97b784dc3780a] subscribe topic [GET_PATIENT_LIST_25f97b784dc3780a] SUCCESS!
+16-11-2020 17:14:36.166 INFO  c.e.v.mqtt.MqttSubscriberInitApp.subscribersByDisplay - [DISPLAY_LINK_GATE_REQ_25f97b784dc3780a] subscribe topic [DISPLAY_LINK_GATE_REQ_25f97b784dc3780a] SUCCESS!
+16-11-2020 17:14:36.186 INFO  c.e.v.mqtt.MqttSubscriberInitApp.subscribersByDisplay - [RES_CONNECT_TO_SENSOR_25f97b784dc3780a] subscribe topic [RES_CONNECT_TO_SENSOR_25f97b784dc3780a] SUCCESS!
+16-11-2020 17:14:36.205 INFO  c.e.v.mqtt.MqttSubscriberInitApp.subscribersByDisplay - [RES_DISCONNECT_TO_SENSOR_25f97b784dc3780a] subscribe topic [RES_DISCONNECT_TO_SENSOR_25f97b784dc3780a] SUCCESS!
+16-11-2020 17:14:36.205 INFO  c.e.v.mqtt.MqttSubscriberInitApp.subscribersByGate - [subscribersByGate topic ]
+16-11-2020 17:14:36.225 INFO  c.e.v.mqtt.MqttSubscriberInitApp.subscribersByGate - [GATE_REQ_DISPLAY_SENSOR_ELCGW-001-000000006bcbd964] subscribe topic [GATE_REQ_DISPLAY_SENSOR_ELCGW-001-000000006bcbd964] SUCCESS!
+16-11-2020 17:14:36.237 INFO  c.e.v.mqtt.MqttSubscriberInitApp.subscribersByGate - [GATE_REQ_DISPLAY_SENSOR_ELCGW-001-00000000649af265] subscribe topic [GATE_REQ_DISPLAY_SENSOR_ELCGW-001-00000000649af265] SUCCESS!
+16-11-2020 17:14:36.237 INFO  c.e.v.mqtt.MqttSubscriberInitApp.messageArrived - [messageArrived topic]: RES_CONNECT_TO_SENSOR_25f97b784dc3780a
+16-11-2020 17:14:36.237 INFO  c.e.v.mqtt.MqttSubscriberInitApp.messageArrived - Message received:
+	{"gate_id": "ELCGW-001-000000006bcbd964","display_id": "25f97b784dc3780a","sensor_id": "bcbf91bd-c648-46fd-8bac-a0ee0b71d33f", "result_code":0}
+16-11-2020 17:14:36.237 INFO  c.e.v.process.MqttConsumerInitApp.run - Consummer - [RES_CONNECT_TO_SENSOR] : {"gate_id": "ELCGW-001-000000006bcbd964","display_id": "25f97b784dc3780a","sensor_id": "bcbf91bd-c648-46fd-8bac-a0ee0b71d33f", "result_code":0}
+16-11-2020 17:14:36.245 INFO  c.e.v.mqtt.MqttSubscriberInitApp.subscribersByGate - [GATE_REQ_DISPLAY_SENSOR_ELCGW-001-00000000649af266] subscribe topic [GATE_REQ_DISPLAY_SENSOR_ELCGW-001-00000000649af266] SUCCESS!
+16-11-2020 17:14:36.257 INFO  c.e.v.mqtt.MqttSubscriberInitApp.messageArrived - [messageArrived topic]: RES_DISCONNECT_TO_SENSOR_25f97b784dc3780a
+16-11-2020 17:14:36.257 INFO  c.e.v.mqtt.MqttSubscriberInitApp.messageArrived - Message received:
+	{"gate_id": "ELCGW-001-000000006bcbd964","display_id": "25f97b784dc3780a","sensor_id": "bcbf91bd-c648-46fd-8bac-a0ee0b71d33f", "result_code":0}
+16-11-2020 17:14:36.278 INFO  c.e.v.mqtt.MqttSubscriberInitApp.subscribersByGate - [GATE_REQ_DISPLAY_SENSOR_ELCGW-001-00000000649af267] subscribe topic [GATE_REQ_DISPLAY_SENSOR_ELCGW-001-00000000649af267] SUCCESS!
+16-11-2020 17:14:36.278 INFO  c.e.v.mqtt.MqttSubscriberInitApp.subscribersGateDemo - [subscribersByGate topic ]
+16-11-2020 17:14:36.296 INFO  c.e.v.mqtt.MqttSubscriberInitApp.subscribersGateDemo - [GATE/SERVER/ADD_SENSOR_REQ/#] subscribe topic [GATE/SERVER/ADD_SENSOR_REQ/#] SUCCESS!
+16-11-2020 17:14:36.296 INFO  c.e.v.mqtt.MqttSubscriberInitApp.subscribersDisplayDemo - [subscribersByDisplay topic ]
+16-11-2020 17:14:36.311 INFO  c.e.v.process.MqttConsumerInitApp.run - Consummer - [RES_DISCONNECT_TO_SENSOR] : {"gate_id": "ELCGW-001-000000006bcbd964","display_id": "25f97b784dc3780a","sensor_id": "bcbf91bd-c648-46fd-8bac-a0ee0b71d33f", "result_code":0}
+16-11-2020 17:14:36.327 INFO  c.e.v.mqtt.MqttSubscriberInitApp.subscribersDisplayDemo - [DISPLAY/SERVER/SEARCH_GATE_REQ/#] subscribe topic [DISPLAY/SERVER/SEARCH_GATE_REQ/#] SUCCESS!
+16-11-2020 17:14:36.343 INFO  c.e.v.mqtt.MqttSubscriberInitApp.subscribersDisplayDemo - [DISPLAY/SERVER/GET_GATE_SENSOR_LINKED_REQ/#] subscribe topic [DISPLAY/SERVER/GET_GATE_SENSOR_LINKED_REQ/#] SUCCESS!

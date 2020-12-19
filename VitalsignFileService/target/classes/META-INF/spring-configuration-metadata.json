@@ -1,0 +1,17 @@
+{
+  "groups": [
+    {
+      "name": "file",
+      "type": "com.elcom.fileservice.upload.FileStorageConfig",
+      "sourceType": "com.elcom.fileservice.upload.FileStorageConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "file.upload-dir",
+      "type": "java.lang.String",
+      "sourceType": "com.elcom.fileservice.upload.FileStorageConfig"
+    }
+  ],
+  "hints": []
+}

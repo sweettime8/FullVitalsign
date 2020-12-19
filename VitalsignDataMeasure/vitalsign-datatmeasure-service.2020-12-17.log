@@ -1,0 +1,25 @@
+17-12-2020 11:33:13.434 INFO  c.e.v.VitalsignProjectServicesApplication.logStarting.55 - Starting VitalsignProjectServicesApplication on DESKTOP-2U9UF8V with PID 12116 (E:\1.ELCOM\0.Vitalsign\1.televital-platform\VitalsignDataMeasure\target\classes started by Admin in E:\1.ELCOM\0.Vitalsign\1.televital-platform\VitalsignDataMeasure)
+17-12-2020 11:33:13.450 INFO  c.e.v.VitalsignProjectServicesApplication.logStartupProfileInfo.651 - No active profile set, falling back to default profiles: default
+17-12-2020 11:33:15.328 INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation.31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+17-12-2020 11:33:15.364 INFO  org.hibernate.Version.logVersion.44 - HHH000412: Hibernate ORM core version 5.4.15.Final
+17-12-2020 11:33:15.515 INFO  o.h.annotations.common.Version.<clinit>.49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+17-12-2020 11:33:15.616 INFO  org.hibernate.dialect.Dialect.<init>.172 - HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+17-12-2020 11:33:16.206 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService.52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+17-12-2020 11:33:16.261 INFO  c.e.v.messaging.rabbitmq.RpcConfig.initRpcQueue.35 - rpcQueueName: vs_measure_data_rpc_queue
+17-12-2020 11:33:16.263 INFO  c.e.v.messaging.rabbitmq.RpcConfig.rpcExchange.41 - rpcExchangeName: vs_measure_data_rpc_exchange
+17-12-2020 11:33:16.264 INFO  c.e.v.messaging.rabbitmq.RpcConfig.bindingRpc.47 - rpcRoutingKey: vs_measure_data_rpc_key
+17-12-2020 11:33:16.272 INFO  c.e.v.m.rabbitmq.WorkerConfig.initWorkerQueue.24 - workerQueueName: vs_measure_data_worker_queue
+17-12-2020 11:33:17.306 INFO  c.e.v.messaging.rabbitmq.RpcServer.rpcReceive.44 - Elapsed readValue [59 (ms)] ms
+17-12-2020 11:33:17.315 INFO  c.e.v.VitalsignProjectServicesApplication.logStarted.61 - Started VitalsignProjectServicesApplication in 4.525 seconds (JVM running for 5.163)
+17-12-2020 11:33:17.321 INFO  c.e.v.mqtt.MqttSubscriberInitForData.subscribersData.147 - [ subscribersDATA topic ]
+17-12-2020 11:33:17.477 INFO  c.e.v.messaging.rabbitmq.RpcServer.rpcReceive.70 -  [<--] Server returned [com.elcom.vitalsign.model.dto.Spo2DataLatestByHealthProfile@2e4d8299]
+17-12-2020 11:33:17.490 INFO  c.e.v.messaging.rabbitmq.RpcServer.rpcReceive.44 - Elapsed readValue [1 (ms)] ms
+17-12-2020 11:33:17.499 INFO  c.e.v.messaging.rabbitmq.RpcServer.rpcReceive.79 -  [<--] Server returned [com.elcom.vitalsign.model.dto.TempDataLatestByHealthProfile@23a64a02]
+17-12-2020 11:33:17.708 INFO  com.elcom.vitalsign.utils.SslUtil.getSocketFactory.78 - Unencrypted key - no password needed
+17-12-2020 11:33:18.530 INFO  c.e.v.mqtt.MqttSubscriberInitForData.subscribersData.172 - [$share/temp_demotest02/RES/TRANSMIT/DATA/TEMP000000001] subscribe topic [$share/temp_demotest02/RES/TRANSMIT/DATA/TEMP/#] SUCCESS!
+17-12-2020 11:33:23.293 INFO  c.e.v.messaging.rabbitmq.RpcServer.rpcReceive.44 - Elapsed readValue [6 (ms)] ms
+17-12-2020 11:33:23.309 INFO  c.e.v.messaging.rabbitmq.RpcServer.rpcReceive.61 -  [<--] Server returned [com.elcom.vitalsign.model.dto.BpDataLatestByHealthProfile@41287aca]
+17-12-2020 11:33:23.329 INFO  c.e.v.messaging.rabbitmq.RpcServer.rpcReceive.44 - Elapsed readValue [1 (ms)] ms
+17-12-2020 11:33:23.337 INFO  c.e.v.messaging.rabbitmq.RpcServer.rpcReceive.70 -  [<--] Server returned [com.elcom.vitalsign.model.dto.Spo2DataLatestByHealthProfile@2a3c747b]
+17-12-2020 11:33:23.353 INFO  c.e.v.messaging.rabbitmq.RpcServer.rpcReceive.44 - Elapsed readValue [1 (ms)] ms
+17-12-2020 11:33:23.358 INFO  c.e.v.messaging.rabbitmq.RpcServer.rpcReceive.79 -  [<--] Server returned [com.elcom.vitalsign.model.dto.TempDataLatestByHealthProfile@55a80a12]

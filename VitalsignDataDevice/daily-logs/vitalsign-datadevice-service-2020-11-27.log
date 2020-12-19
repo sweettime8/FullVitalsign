@@ -1,0 +1,39 @@
+27-11-2020 13:13:44.892 INFO  c.e.v.VitalsignProjectServicesApplication.logStarting - Starting VitalsignProjectServicesApplication on DESKTOP-2U9UF8V with PID 13004 (E:\1.ELCOM\Vitalsign\1.televital-platform\VitalsignDataDevice\target\classes started by Admin in E:\1.ELCOM\Vitalsign\1.televital-platform\VitalsignDataDevice)
+27-11-2020 13:13:44.900 INFO  c.e.v.VitalsignProjectServicesApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+27-11-2020 13:13:46.591 INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+27-11-2020 13:13:46.630 INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 5.4.15.Final
+27-11-2020 13:13:46.753 INFO  o.h.annotations.common.Version.<clinit> - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+27-11-2020 13:13:46.890 INFO  org.hibernate.dialect.Dialect.<init> - HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+27-11-2020 13:13:47.434 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+27-11-2020 13:13:48.293 INFO  c.e.v.VitalsignProjectServicesApplication.logStarted - Started VitalsignProjectServicesApplication in 3.823 seconds (JVM running for 4.248)
+27-11-2020 13:13:48.299 INFO  c.e.v.mqtt.MqttSubscriberInitApp.subscribersByDisplay - [subscribersByDisplay topic ]
+27-11-2020 13:13:48.553 INFO  com.elcom.vitalsign.utils.SslUtil.getSocketFactory - Unencrypted key - no password needed
+27-11-2020 13:13:48.902 INFO  c.e.v.mqtt.MqttSubscriberInitApp.subscribersByDisplay - [DISPLAY/REQ/GATE/SENSOR/#000000001] subscribe topic [DISPLAY/REQ/GATE/SENSOR/#] SUCCESS!
+27-11-2020 13:13:48.965 INFO  c.e.v.mqtt.MqttSubscriberInitApp.subscribersByDisplay - [DISPLAY/UNLINK/GATE/REQ/#000000001] subscribe topic [DISPLAY/UNLINK/GATE/REQ/#] SUCCESS!
+27-11-2020 13:13:49.029 INFO  c.e.v.mqtt.MqttSubscriberInitApp.subscribersByDisplay - [GET/PATIENT/LIST/#000000001] subscribe topic [GET/PATIENT/LIST/#] SUCCESS!
+27-11-2020 13:13:49.093 INFO  c.e.v.mqtt.MqttSubscriberInitApp.subscribersByDisplay - [DISPLAY/LINK/GATE/REQ/#000000001] subscribe topic [DISPLAY/LINK/GATE/REQ/#] SUCCESS!
+27-11-2020 13:13:49.151 INFO  c.e.v.mqtt.MqttSubscriberInitApp.subscribersByDisplay - [RES/CONNECT/TO/SENSOR/#000000001] subscribe topic [RES/CONNECT/TO/SENSOR/#] SUCCESS!
+27-11-2020 13:13:49.233 INFO  c.e.v.mqtt.MqttSubscriberInitApp.subscribersByDisplay - [RES/DISCONNECT/TO/SENSOR/#000000001] subscribe topic [RES/DISCONNECT/TO/SENSOR/#] SUCCESS!
+27-11-2020 13:13:49.346 INFO  c.e.v.mqtt.MqttSubscriberInitApp.subscribersByDisplay - [DISPLAY/SERVER/SEARCH_GATE_REQ/#000000001] subscribe topic [DISPLAY/SERVER/SEARCH_GATE_REQ/#] SUCCESS!
+27-11-2020 13:13:49.472 INFO  c.e.v.mqtt.MqttSubscriberInitApp.subscribersByDisplay - [DISPLAY/SERVER/GET_GATE_SENSOR_LINKED_REQ/#000000001] subscribe topic [DISPLAY/SERVER/GET_GATE_SENSOR_LINKED_REQ/#] SUCCESS!
+27-11-2020 13:13:49.472 INFO  c.e.v.mqtt.MqttSubscriberInitApp.subscribersByGate - [subscribersByGate topic ]
+27-11-2020 13:13:49.475 INFO  com.elcom.vitalsign.utils.SslUtil.getSocketFactory - Unencrypted key - no password needed
+27-11-2020 13:13:49.550 INFO  c.e.v.mqtt.MqttSubscriberInitApp.subscribersByGate - [GATE/REQ/DISPLAY/SENSOR/#000000001] subscribe topic [GATE/REQ/DISPLAY/SENSOR/#] SUCCESS!
+27-11-2020 13:13:49.612 INFO  c.e.v.mqtt.MqttSubscriberInitApp.subscribersByGate - [GATE/SERVER/ADD_SENSOR_REQ/#000000001] subscribe topic [GATE/SERVER/ADD_SENSOR_REQ/#] SUCCESS!
+27-11-2020 13:14:00.297 INFO  c.e.v.mqtt.MqttSubscriberInitApp.messageArrived - [messageArrived topic]: DISPLAY/REQ/GATE/SENSOR/4eb2459ae05f004c
+27-11-2020 13:14:00.297 INFO  c.e.v.mqtt.MqttSubscriberInitApp.messageArrived - Message received:
+	{"display_id":"4eb2459ae05f004c"}
+27-11-2020 13:14:00.298 INFO  c.e.v.process.MqttConsumerInitApp.run - Consummer - [DISPLAY/REQ/GATE/SENSOR] : {"display_id":"4eb2459ae05f004c"}
+27-11-2020 13:14:00.565 INFO  com.elcom.vitalsign.utils.SslUtil.getSocketFactory - Unencrypted key - no password needed
+27-11-2020 13:14:01.032 INFO  c.e.vitalsign.mqtt.MqttPulisherRes.publisherDisplayTurnOn - Send Message to Gate ToPic  : SERVER/RES/GATE/SENSOR/4eb2459ae05f004c 
+{"gateId":"ELCGW-001-00000000649af267","status":"active","sensorLst":[{"id":"bcbf91bd-c648-46fd-8bac-a0ee0b71d33n","gateId":"ELCGW-001-00000000649af267","patientId":"2c150805-9216-4aa0-bf53-3d58ebb67c77","name":"Sensor 06","model":"ASFA","sensorType":"SPO2","mac":"bcbf91bd-c648-46fd-8bac-a0ee0b71d33n","batteryValue":25,"status":1,"measureState":0,"isDeleted":0,"lastUpdatedAt":"2020-11-16 11:04:44"},{"id":"bcbf91bd-c648-46fd-8bac-a0ee0b71d33p","gateId":"ELCGW-001-00000000649af267","patientId":"2c150805-9216-4aa0-bf53-3d58ebb67c77","name":"Sensor 07","model":"MNPQ","sensorType":"TEMP","mac":"bcbf91bd-c648-46fd-8bac-a0ee0b71d33p","batteryValue":25,"status":1,"measureState":0,"isDeleted":0,"lastUpdatedAt":"2020-11-16 11:04:44"},{"id":"bcbf91bd-c648-46fd-8bac-a0ee0bdtnm1","gateId":"ELCGW-001-00000000649af267","patientId":"2c150805-9216-4aa0-bf53-3d58ebb67c77","name":"Sensor NIBP TNM","sensorType":"NIBP","mac":"bcbf91bd-c648-46fd-8bac-a0ee0bdtnm1","batteryValue":50,"status":1,"measureState":0,"isDeleted":0,"lastUpdatedAt":"2020-11-18 17:10:17"},{"id":"ccbf91bd-c648-46fd-8bac-a0ee0bdtnm0","gateId":"ELCGW-001-00000000649af267","patientId":"3c150805-9216-4aa0-bf53-3d58ebb67c78","name":"Sensor NIBP TNM-2","sensorType":"NIBP","mac":"ccbf91bd-c648-46fd-8bac-a0ee0bdtnm2","batteryValue":50,"status":1,"measureState":0,"isDeleted":0,"lastUpdatedAt":"2020-11-23 16:32:40"}]}
+27-11-2020 13:19:47.245 INFO  c.e.v.mqtt.MqttSubscriberInitApp.connectionLost - Connection lost because: Connection lost (32109) - java.io.EOFException
+27-11-2020 13:19:47.245 INFO  c.e.v.mqtt.MqttSubscriberInitApp.connectionLost - Connection lost because: Connection lost (32109) - java.io.EOFException
+27-11-2020 13:19:47.250 INFO  c.e.v.mqtt.MqttSubscriberInitApp.connectionLost - Connection lost because: Connection lost (32109) - java.io.EOFException
+27-11-2020 13:19:47.250 INFO  c.e.v.mqtt.MqttSubscriberInitApp.connectionLost - Connection lost because: Connection lost (32109) - java.io.EOFException
+27-11-2020 13:19:47.250 INFO  c.e.v.mqtt.MqttSubscriberInitApp.connectionLost - Connection lost because: Connection lost (32109) - java.io.EOFException
+27-11-2020 13:19:47.249 INFO  c.e.v.mqtt.MqttSubscriberInitApp.connectionLost - Connection lost because: Connection lost (32109) - java.io.EOFException
+27-11-2020 13:19:47.250 INFO  c.e.v.mqtt.MqttSubscriberInitApp.connectionLost - Connection lost because: Connection lost (32109) - java.io.EOFException
+27-11-2020 13:19:47.251 INFO  c.e.v.mqtt.MqttSubscriberInitApp.connectionLost - Connection lost because: Connection lost (32109) - java.io.EOFException
+27-11-2020 13:19:47.251 INFO  c.e.v.mqtt.MqttSubscriberInitApp.connectionLost - Connection lost because: Connection lost (32109) - java.io.EOFException
+27-11-2020 13:19:47.251 INFO  c.e.v.mqtt.MqttSubscriberInitApp.connectionLost - Connection lost because: Connection lost (32109) - java.io.EOFException

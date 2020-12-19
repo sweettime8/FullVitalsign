@@ -1,0 +1,27 @@
+[    
+    {
+        "path": "/measure-data",
+        "method": "GET",
+        "rabbit": "rpc"
+    }, 
+    {
+        "path": "/measure-data",
+        "method": "POST",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/measure-data/bp/data-by-range",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/measure-data/temp/data-by-range",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/measure-data/spo2/data-by-range",
+        "method": "GET",
+        "rabbit": "rpc"
+    }
+]

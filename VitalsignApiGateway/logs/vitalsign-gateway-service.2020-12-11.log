@@ -1,0 +1,27 @@
+11-12-2020 16:12:56.755 INFO  com.elcom.gateway.MainApplication.logStarting.55 - Starting MainApplication on DESKTOP-2U9UF8V with PID 8484 (E:\1.ELCOM\0.Vitalsign\1.televital-platform\VitalsignApiGateway\target\classes started by Admin in E:\1.ELCOM\0.Vitalsign\1.televital-platform\VitalsignApiGateway)
+11-12-2020 16:12:56.765 INFO  com.elcom.gateway.MainApplication.logStartupProfileInfo.651 - No active profile set, falling back to default profiles: default
+11-12-2020 16:13:00.911 INFO  com.elcom.gateway.MainApplication.logStarted.61 - Started MainApplication in 4.809 seconds (JVM running for 5.608)
+11-12-2020 16:14:35.316 INFO  c.e.g.controller.BaseController.processRequest.68 - [GET] to requestPath: /v1.0/user/find-doctors-by-patient - urlParam: uuid=60d7ff14-d06b-49c3-8791-43d44b5ca58d - pathParm: null - headerParam: user-agent=PostmanRuntime/7.26.8&accept=*/*&postman-token=0b07c3c5-4afe-408b-a38f-e75eda03f564&host=localhost:8415&accept-encoding=gzip, deflate, br&connection=keep-alive
+11-12-2020 16:14:35.330 INFO  c.e.g.controller.BaseController.processRequest.80 - Get Rabbit type for GET /user/find-doctors-by-patient ==> Rabbit: rpc
+11-12-2020 16:17:51.082 INFO  com.elcom.gateway.MainApplication.logStarting.55 - Starting MainApplication on DESKTOP-2U9UF8V with PID 2700 (E:\1.ELCOM\0.Vitalsign\1.televital-platform\VitalsignApiGateway\target\classes started by Admin in E:\1.ELCOM\0.Vitalsign\1.televital-platform\VitalsignApiGateway)
+11-12-2020 16:17:51.087 INFO  com.elcom.gateway.MainApplication.logStartupProfileInfo.651 - No active profile set, falling back to default profiles: default
+11-12-2020 16:17:55.716 ERROR o.s.b.d.LoggingFailureAnalysisReporter.report.40 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8415 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8415 or configure this application to listen on another port.
+
+11-12-2020 16:51:13.306 INFO  com.elcom.gateway.MainApplication.logStarting.55 - Starting MainApplication on DESKTOP-2U9UF8V with PID 10792 (E:\1.ELCOM\0.Vitalsign\1.televital-platform\VitalsignApiGateway\target\classes started by Admin in E:\1.ELCOM\0.Vitalsign\1.televital-platform\VitalsignApiGateway)
+11-12-2020 16:51:13.309 INFO  com.elcom.gateway.MainApplication.logStartupProfileInfo.651 - No active profile set, falling back to default profiles: default
+11-12-2020 16:51:16.199 INFO  com.elcom.gateway.MainApplication.logStarted.61 - Started MainApplication in 3.446 seconds (JVM running for 3.858)
+11-12-2020 17:11:34.341 INFO  com.elcom.gateway.MainApplication.logStarting.55 - Starting MainApplication on DESKTOP-2U9UF8V with PID 11776 (E:\1.ELCOM\0.Vitalsign\1.televital-platform\VitalsignApiGateway\target\classes started by Admin in E:\1.ELCOM\0.Vitalsign\1.televital-platform\VitalsignApiGateway)
+11-12-2020 17:11:34.345 INFO  com.elcom.gateway.MainApplication.logStartupProfileInfo.651 - No active profile set, falling back to default profiles: default
+11-12-2020 17:11:37.073 INFO  com.elcom.gateway.MainApplication.logStarted.61 - Started MainApplication in 3.312 seconds (JVM running for 3.679)
